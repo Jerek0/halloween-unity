@@ -1,0 +1,14 @@
+# Unity3D .gitignore file.
+# Store this file at the root of your local repository.
+.DS_Store
+Thumbs.db
+Library
+/Temp
+/builds
+*.csproj
+*.pidb
+*.sln
+*.userprefs
+*.unityproj
+InspectorExpandedItems.asset
+EditorUserBuildSettings.asset

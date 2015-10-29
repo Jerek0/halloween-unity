@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 57bfeb5a62117c54ea6b27b5ebb4aaf2
+timeCreated: 1445861977
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Monster-die_0000
+    21300002: Monster-die_0001
+    21300004: Monster-die_0002
+    21300006: Monster-die_0003
+    21300008: Monster-die_0004
+    21300010: Monster-walk_0000
+    21300012: Monster-walk_0001
+    21300014: Monster-walk_0002
+    21300016: Monster-walk_0003
+    21300018: Monster-walk_0004
+    21300020: Monster-walk_0005
+    21300022: Monster-walk_0006
+    21300024: Monster-walk_0007
+    21300026: Monster-walk_0008
+    21300028: Monster-walk_0009
+    21300030: Monster-walk_0010
+    21300032: Monster-walk_0011
+    21300034: Monster-walk_0012
+    21300036: Monster-walk_0013
+    21300038: Monster-walk_0014
+    21300040: Monster-walk_0015
+    21300042: Monster-walk_0016
+    21300044: Monster-walk_0017
+    21300046: Monster-walk_0018
+    21300048: Monster-walk_0019
+    21300050: Monster-walk_0020
+    21300052: Monster-walk_0021
+    21300054: Monster-walk_0022
+    21300056: Monster-walk_0023
+    21300058: Monster-walk_0024
+    21300060: Monster-walk_0025
+    21300062: Patch-die_0000
+    21300064: Patch-die_0001
+    21300066: Patch-die_0002
+    21300068: Patch-die_0003
+    21300070: Patch-die_0004
+    21300072: Patch-die_0005
+    21300074: Patch-duck_0000
+    21300076: Patch-duck_0001
+    21300078: Patch-fall_0000
+    21300080: Patch-fall_0001
+    21300082: Patch-fall_0002
+    21300084: Patch-fall_0003
+    21300086: Patch-fall_0004
+    21300088: Patch-fall_0005
+    21300090: Patch-hurt_0000
+    21300092: Patch-hurt_0001
+    21300094: Patch-hurt_0002
+    21300096: Patch-hurt_0003
+    21300098: Patch-hurt_0004
+    21300100: Patch-hurt_0005
+    21300102: Patch-idle_0000
+    21300104: Patch-jump_0000
+    21300106: Patch-jump_0001
+    21300108: Patch-jump_0002
+    21300110: Patch-jump_0003
+    21300112: Patch-jump_0004
+    21300114: Patch-jump_0005
+    21300116: Patch-land_0000
+    21300118: Patch-land_0001
+    21300120: Patch-land_0002
+    21300122: Patch-land_0003
+    21300124: Patch-land_0004
+    21300126: Patch-skid_0000
+    21300128: Patch-skid_0001
+    21300130: Patch-skid_0002
+    21300132: Patch-skid_0003
+    21300134: Patch-skid_0004
+    21300136: Patch-skid_0005
+    21300138: Patch-walk_0000
+    21300140: Patch-walk_0001
+    21300142: Patch-walk_0002
+    21300144: Patch-walk_0003
+    21300146: Patch-walk_0004
+    21300148: Patch-walk_0005
+    21300150: bg_clouds
+    21300152: bg_sky
+    21300154: bg_trees
+    21300156: blade
+    21300158: crate
+    21300160: fg_trees
+    21300162: jewel
+    21300164: jewelMeter
+    21300166: leaf
+    21300168: mb
+    21300170: mf
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Monster-die_0000
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 1527
+        width: 47
+        height: 64
+      alignment: 9
+      pivot: {x: .53191489, y: .46875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-die_0001
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 1593
+        width: 49
+        height: 57
+      alignment: 9
+      pivot: {x: .53061223, y: .526315808}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-die_0002
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 1480
+        width: 52
+        height: 49
+      alignment: 9
+      pivot: {x: .519230783, y: .612244904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-die_0003
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 1517
+        width: 55
+        height: 42
+      alignment: 9
+      pivot: {x: .5090909, y: .714285731}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-die_0004
+      rect:
+        serializedVersion: 2
+        x: 3494
+        y: 1558
+        width: 56
+        height: 34
+      alignment: 9
+      pivot: {x: .517857134, y: .882352948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0000
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 1652
+        width: 47
+        height: 68
+      alignment: 9
+      pivot: {x: .53191489, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0001
+      rect:
+        serializedVersion: 2
+        x: 4047
+        y: 1652
+        width: 47
+        height: 68
+      alignment: 9
+      pivot: {x: .53191489, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0002
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 1457
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0003
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 1457
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0004
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 1387
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .565217376, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0005
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 1387
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .565217376, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0006
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 1447
+        width: 52
+        height: 68
+      alignment: 9
+      pivot: {x: .557692289, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0007
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 1447
+        width: 52
+        height: 68
+      alignment: 9
+      pivot: {x: .557692289, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0008
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 1715
+        width: 61
+        height: 66
+      alignment: 9
+      pivot: {x: .540983617, y: .484848499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0009
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 1715
+        width: 61
+        height: 66
+      alignment: 9
+      pivot: {x: .540983617, y: .484848499}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0010
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 1653
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: .50746268, y: .50746268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0011
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 1653
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: .50746268, y: .50746268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0012
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 1531
+        width: 56
+        height: 68
+      alignment: 9
+      pivot: {x: .553571403, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0013
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 1531
+        width: 56
+        height: 68
+      alignment: 9
+      pivot: {x: .553571403, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0014
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1563
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0015
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1563
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0016
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1563
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0017
+      rect:
+        serializedVersion: 2
+        x: 3726
+        y: 1563
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0018
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 1521
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0019
+      rect:
+        serializedVersion: 2
+        x: 3774
+        y: 1521
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .543478251, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0020
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1493
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .521739125, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0021
+      rect:
+        serializedVersion: 2
+        x: 3678
+        y: 1493
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: .521739125, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0022
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 1593
+        width: 47
+        height: 67
+      alignment: 9
+      pivot: {x: .510638297, y: .49253732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0023
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 1593
+        width: 47
+        height: 67
+      alignment: 9
+      pivot: {x: .510638297, y: .49253732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0024
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 1525
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: .489361703, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Monster-walk_0025
+      rect:
+        serializedVersion: 2
+        x: 3929
+        y: 1525
+        width: 47
+        height: 66
+      alignment: 9
+      pivot: {x: .489361703, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-die_0000
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 1541
+        width: 63
+        height: 119
+      alignment: 9
+      pivot: {x: .428571433, y: .592436969}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-die_0001
+      rect:
+        serializedVersion: 2
+        x: 4022
+        y: 1817
+        width: 70
+        height: 109
+      alignment: 9
+      pivot: {x: .342857152, y: .646789014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-die_0002
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 1722
+        width: 74
+        height: 93
+      alignment: 9
+      pivot: {x: .351351351, y: .768817186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-die_0003
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 1739
+        width: 75
+        height: 80
+      alignment: 9
+      pivot: {x: .333333343, y: .893750012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-die_0004
+      rect:
+        serializedVersion: 2
+        x: 3734
+        y: 1735
+        width: 74
+        height: 64
+      alignment: 9
+      pivot: {x: .32432431, y: 1.1171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-die_0005
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1735
+        width: 77
+        height: 64
+      alignment: 9
+      pivot: {x: .350649357, y: 1.1171875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-duck_0000
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 1538
+        width: 63
+        height: 113
+      alignment: 9
+      pivot: {x: .206349209, y: .623893797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-duck_0001
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 1450
+        width: 63
+        height: 86
+      alignment: 9
+      pivot: {x: .206349209, y: .819767416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-fall_0000
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 1821
+        width: 81
+        height: 110
+      alignment: 9
+      pivot: {x: .518518507, y: .668181837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-fall_0001
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 1933
+        width: 81
+        height: 113
+      alignment: 9
+      pivot: {x: .530864179, y: .650442481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-fall_0002
+      rect:
+        serializedVersion: 2
+        x: 3767
+        y: 1914
+        width: 87
+        height: 132
+      alignment: 9
+      pivot: {x: .574712634, y: .541666687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-fall_0003
+      rect:
+        serializedVersion: 2
+        x: 3655
+        y: 1741
+        width: 77
+        height: 131
+      alignment: 9
+      pivot: {x: .584415555, y: .538167953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-fall_0004
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 1874
+        width: 86
+        height: 131
+      alignment: 9
+      pivot: {x: .45348838, y: .54580152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-fall_0005
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 1633
+        width: 70
+        height: 100
+      alignment: 9
+      pivot: {x: .357142866, y: .714999974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-hurt_0000
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1801
+        width: 83
+        height: 103
+      alignment: 9
+      pivot: {x: .566265047, y: .684466004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-hurt_0001
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1906
+        width: 87
+        height: 99
+      alignment: 9
+      pivot: {x: .574712634, y: .712121189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-hurt_0002
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1906
+        width: 87
+        height: 99
+      alignment: 9
+      pivot: {x: .574712634, y: .712121189}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-hurt_0003
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 1801
+        width: 83
+        height: 103
+      alignment: 9
+      pivot: {x: .566265047, y: .684466004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-hurt_0004
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 1938
+        width: 82
+        height: 108
+      alignment: 9
+      pivot: {x: .609756112, y: .652777791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-hurt_0005
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 1938
+        width: 82
+        height: 108
+      alignment: 9
+      pivot: {x: .609756112, y: .652777791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-idle_0000
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 1594
+        width: 60
+        height: 119
+      alignment: 9
+      pivot: {x: .449999988, y: .60084033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-jump_0000
+      rect:
+        serializedVersion: 2
+        x: 3620
+        y: 1491
+        width: 56
+        height: 145
+      alignment: 9
+      pivot: {x: .517857134, y: .493103445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-jump_0001
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 1511
+        width: 57
+        height: 144
+      alignment: 9
+      pivot: {x: .526315808, y: .489583343}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-jump_0002
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 1601
+        width: 60
+        height: 132
+      alignment: 9
+      pivot: {x: .5, y: .534090936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-jump_0003
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1657
+        width: 61
+        height: 124
+      alignment: 9
+      pivot: {x: .475409836, y: .568548381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-jump_0004
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 1801
+        width: 79
+        height: 111
+      alignment: 9
+      pivot: {x: .518987358, y: .518018007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-jump_0005
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 1825
+        width: 81
+        height: 111
+      alignment: 9
+      pivot: {x: .543209851, y: .518018007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-land_0000
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 1638
+        width: 70
+        height: 101
+      alignment: 9
+      pivot: {x: .357142866, y: .698019803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-land_0001
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1692
+        width: 62
+        height: 89
+      alignment: 9
+      pivot: {x: .193548381, y: .792134821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-land_0002
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1561
+        width: 60
+        height: 102
+      alignment: 9
+      pivot: {x: .166666672, y: .691176474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-land_0003
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1665
+        width: 61
+        height: 116
+      alignment: 9
+      pivot: {x: .360655725, y: .607758641}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-land_0004
+      rect:
+        serializedVersion: 2
+        x: 3649
+        y: 1638
+        width: 70
+        height: 101
+      alignment: 9
+      pivot: {x: .357142866, y: .698019803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-skid_0000
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1706
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: .631578922, y: .602564096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-skid_0001
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1706
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: .631578922, y: .602564096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-skid_0002
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1706
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: .631578922, y: .602564096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-skid_0003
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1706
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: .631578922, y: .602564096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-skid_0004
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1706
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: .631578922, y: .602564096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-skid_0005
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1706
+        width: 76
+        height: 117
+      alignment: 9
+      pivot: {x: .631578922, y: .602564096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-walk_0000
+      rect:
+        serializedVersion: 2
+        x: 4023
+        y: 1928
+        width: 71
+        height: 118
+      alignment: 9
+      pivot: {x: .492957741, y: .572033882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-walk_0001
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 1591
+        width: 69
+        height: 113
+      alignment: 9
+      pivot: {x: .405797094, y: .491150439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-walk_0002
+      rect:
+        serializedVersion: 2
+        x: 3793
+        y: 1591
+        width: 69
+        height: 113
+      alignment: 9
+      pivot: {x: .405797094, y: .491150439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-walk_0003
+      rect:
+        serializedVersion: 2
+        x: 3484
+        y: 1425
+        width: 52
+        height: 131
+      alignment: 9
+      pivot: {x: .384615391, y: .54580152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-walk_0004
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1568
+        width: 61
+        height: 122
+      alignment: 9
+      pivot: {x: .459016383, y: .594262302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Patch-walk_0005
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1568
+        width: 61
+        height: 122
+      alignment: 9
+      pivot: {x: .459016383, y: .594262302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_clouds
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 672
+        width: 1539
+        height: 332
+      alignment: 9
+      pivot: {x: .5, y: .677710831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_sky
+      rect:
+        serializedVersion: 2
+        x: 3091
+        y: 1006
+        width: 940
+        height: 417
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bg_trees
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 430
+        width: 923
+        height: 240
+      alignment: 9
+      pivot: {x: .5, y: .9375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: blade
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1783
+        width: 263
+        height: 263
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: crate
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 1662
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: fg_trees
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 681
+        width: 2314
+        height: 323
+      alignment: 9
+      pivot: {x: .5, y: .696594417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jewel
+      rect:
+        serializedVersion: 2
+        x: 3906
+        y: 1779
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jewelMeter
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 2007
+        width: 195
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: leaf
+      rect:
+        serializedVersion: 2
+        x: 3747
+        y: 1986
+        width: 11
+        height: 19
+      alignment: 9
+      pivot: {x: .545454562, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mb
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1596
+        width: 3301
+        height: 450
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mf
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1144
+        width: 3087
+        height: 450
+      alignment: 9
+      pivot: {x: .465338528, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
