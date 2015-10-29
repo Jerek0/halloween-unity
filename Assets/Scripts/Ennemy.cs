@@ -24,7 +24,7 @@ public class Ennemy : ACharacter {
         if(other.name == "Player") {
             // Hurt the player
             other.GetComponent<Rigidbody2D>().velocity = new Vector2(rigidbody.velocity.x, other.GetComponent<Rigidbody2D>().velocity.y + 2f);
-            other.gameObject.SendMessage("Hurt");
+            StartCoroutine(other.GetComponent<Player>().Hurt());
         }
 
         if(!other.isTrigger && !other.gameObject.GetComponent<PlatformEffector2D>()) {

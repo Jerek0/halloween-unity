@@ -85,6 +85,8 @@ public class Player : ACharacter {
     /* ######################## */
 
     void Update() {
+        if (Input.GetKeyDown(KeyCode.Escape)) Application.LoadLevel("Home");
+
         if(IsGrounded) {
             keyUpPressed = Input.GetKeyDown(KeyCode.UpArrow);
             keySpacePressed = Input.GetKeyDown(KeyCode.Space);
@@ -189,14 +191,18 @@ public class Player : ACharacter {
     /* ##### HURT RELATED ##### */
     /* ######################## */
    
-    void Hurt() {
+    public IEnumerator Hurt() {
         IsDead = true;
         GetComponent<BoxCollider2D>().enabled = false;
-        Invoke("Die", 1.5f);
-    }
 
-    void Die() {
-        GetComponent<Rigidbody2D>().isKinematic = true;       
+        yield return new WaitForSeconds(1.5f);
+
+        GetComponent<Rigidbody2D>().isKinematic = true;
         Application.LoadLevel(Application.loadedLevel);
     }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if (other.name == "youWin") IsDead=true;
+    }
+    
 }
