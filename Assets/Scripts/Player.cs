@@ -2,13 +2,7 @@
 using System.Collections;
 using System;
 
-public class Player : ACharacter {
-
-    const uint STATE_WALKING = 1;
-    const uint STATE_CROUCH = 2;
-    const uint STATE_JUMPING = 3;
-    const uint STATE_FALLING = 4;
-    const uint STATE_HURT = 5;
+public class Player : ACharacter {   
 
     bool keyUpPressed = false;
     bool keyDownPressed = false;
@@ -19,13 +13,61 @@ public class Player : ACharacter {
     bool keyUpHold = false;
     bool keySpaceHold = false;
 
-    bool _isGrounded = false;
-    bool _jumpReleased = true;
-    bool _isHurted = false;
-
-    public bool IsDead {
-        get { return animator.GetBool("isDead"); }
+    bool _isCrouch = false;
+    public bool IsCrouch {
+        set {
+            _isCrouch = value;
+            IsMoving = false;
+            animator.SetBool("isCrouch", value);
+        }
+        get { return _isCrouch; }
     }
+
+    bool _isMoving = false;
+    public bool IsMoving {
+        set {
+            _isMoving = value;
+            animator.SetBool("isMoving", value);
+
+            if(_isMoving) {
+                if (IsGrounded)
+                    Move();
+                else
+                    MoveInTheAir();
+            }            
+        }
+        get { return _isMoving; }
+    }
+
+    bool _isGrounded = false;
+    public bool IsGrounded {
+        set {
+            _isGrounded = value;
+            animator.SetBool("isGrounded", value);
+        }
+        get { return _isGrounded; }
+    }
+
+    bool _isDead = false;
+    public bool IsDead {
+        set {
+            _isDead = value;
+            animator.SetBool("isDead", value);
+        }
+        get { return _isDead; }
+    }
+
+    float _velY = 0f;
+    public float VelY {
+        set {
+            _velY = value;
+            animator.SetFloat("velY", value);
+        }
+        get { return _velY; }
+    }
+
+    bool _jumpReleased = true;    
+    
 
     /* ######################## */
     /* ###### INITIALIZE ###### */
@@ -43,70 +85,61 @@ public class Player : ACharacter {
     /* ######################## */
 
     void Update() {
-        keyUpPressed = Input.GetKeyDown(KeyCode.UpArrow);        
-        keyDownPressed = Input.GetKey(KeyCode.DownArrow);
+        if(IsGrounded) {
+            keyUpPressed = Input.GetKeyDown(KeyCode.UpArrow);
+            keySpacePressed = Input.GetKeyDown(KeyCode.Space);
+            keyDownPressed = Input.GetKey(KeyCode.DownArrow);
+        } else {
+            keyDownPressed = false;
+            keyUpPressed = false;
+            keySpacePressed = false;
+
+            keyUpHold = Input.GetKey(KeyCode.UpArrow);
+            keySpaceHold = Input.GetKey(KeyCode.Space);           
+        }
+
         keyRightPressed = Input.GetKey(KeyCode.RightArrow);
         keyLeftPressed = Input.GetKey(KeyCode.LeftArrow);
-        keySpacePressed = Input.GetKeyDown(KeyCode.Space);
 
-        keyUpHold = Input.GetKey(KeyCode.UpArrow);
-        keySpaceHold = Input.GetKey(KeyCode.Space);
-    }
-
-    void FixedUpdate() {
         // You can change where you look at any time !
         if (keyLeftPressed) CurrentDirection = "left";
         if (keyRightPressed) CurrentDirection = "right";
+    }
 
-        if(animator.GetBool("isDead") == true) {
-            // You are dead, you can't move !
-        }
-        else if (_isGrounded) { // We have something under our feet !
+    void FixedUpdate() {
+        // Do smthg only if you're alive
+        if(!IsDead) {
 
-            // Reset to idle first
-            CurrentAnimationState = STATE_IDLE;
-
-            if (keyDownPressed) { // Let's CROUCH
-                CurrentAnimationState = STATE_CROUCH;
-
-                // Crouching stops movement
-                StopMoving();
+            if (keyDownPressed) {
+                IsCrouch = true;
             }
-            else if(keyUpPressed || keySpacePressed) { // Let's JUMP                
-                Jump();
-            }
-            else { // Normal behaviour
-                // Move right or left
-                if (keyLeftPressed || keyRightPressed) {
-                    CurrentAnimationState = STATE_WALKING;
-                    Move(); 
+            else {
+                IsCrouch = false;
+                
+                if (keyLeftPressed || keyRightPressed) {                        
+                    IsMoving = true;
                 }
-                // Stop moving
-                else {
-                    CurrentAnimationState = STATE_IDLE;
-                    StopMoving();
+                else IsMoving = false;
+
+                // JUMP
+                if (keyUpPressed || keySpacePressed) {
+                    _jumpReleased = false;
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5f);
                 }
-            }            
-        } else { // We are flying !!
-           
-            if(rigidbody.velocity.y > 0) // Flying up
-                CurrentAnimationState = STATE_JUMPING;
-            else // Flying down
-                CurrentAnimationState = STATE_FALLING;            
 
-            // Boost force if still holding the jump btn
-            if(!_jumpReleased) {
-                JumpHigher();
-
-                // Are we still holding the jump btn ?
-                if (!keySpaceHold && !keyUpHold)
-                    _jumpReleased = true;                
+                // JUMP HIGHER
+                if(!_jumpReleased && (keyUpHold || keySpaceHold)) {
+                    rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y * 1.03f);
+                                               
+                    if (!keySpaceHold && !keyUpHold)
+                        _jumpReleased = true;
+                }
             }
 
-            // If we are trying to move, move but slower than grounded
-            if (keyLeftPressed || keyRightPressed) {
-                MoveInTheAir();
-            }
+            // Slow down
+            if(IsGrounded && !IsMoving) rigidbody.velocity = new Vector2(rigidbody.velocity.x * 0.8f, rigidbody.velocity.y);
+
+            VelY = rigidbody.velocity.y;                              
         }
     }
 
@@ -131,33 +164,7 @@ public class Player : ACharacter {
         rigidbody.velocity = new Vector2(rigidbody.velocity.x + xVel, rigidbody.velocity.y);
 
         xVel = 0;
-    }
-
-    /**
-     * Make the character descelerate a lot in order to stop him
-     */
-    void StopMoving() {
-        rigidbody.velocity = new Vector2(rigidbody.velocity.x * 0.8f, rigidbody.velocity.y);
-    }
-
-    /* ######################## */
-    /* ##### JUMP RELATED ##### */
-    /* ######################## */
-
-    /**
-     * Apply a force to make the character jump
-     */
-    void Jump() {
-        _jumpReleased = false;
-        rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5f);
-    }
-
-    /**
-     * Boost the current vertical force to jump higher
-     */
-    void JumpHigher() {
-        rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y * 1.03f);
-    }
+    } 
 
     /* ############################# */
     /* ##### GROUNDED RELATED ###### */
@@ -168,29 +175,22 @@ public class Player : ACharacter {
      */
     void OnGroundTouch() {
         _jumpReleased = true;
-        _isGrounded = true;
+        IsGrounded = true;
     }
 
     /**
      * This is called when the character isn't standing on smthg anymore
      */
     void OnGroundLeave() {
-        Debug.Log("onGroundLeave");
-        _isGrounded = false;
+        IsGrounded = false;
     }
 
     /* ######################## */
     /* ##### HURT RELATED ##### */
     /* ######################## */
-
-    /**
-     * Puts the player in a hurted state
-     */
+   
     void Hurt() {
-        CurrentAnimationState = STATE_HURT;
-        _isHurted = true;
-
-        animator.SetBool("isDead", true);
+        IsDead = true;
         GetComponent<BoxCollider2D>().enabled = false;
         Invoke("Die", 1.5f);
     }
@@ -199,12 +199,4 @@ public class Player : ACharacter {
         GetComponent<Rigidbody2D>().isKinematic = true;       
         Application.LoadLevel(Application.loadedLevel);
     }
-
-    /**
-     * Gets the player back to a normal state after being hurted
-     */
-    public void Heal() {
-        CurrentAnimationState = STATE_IDLE;
-        _isHurted = false;        
-    }     
 }
