@@ -30,6 +30,7 @@ GameObject:
   - 50: {fileID: 5029614}
   - 95: {fileID: 9538750}
   - 114: {fileID: 11445946}
+  - 82: {fileID: 8203430}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -104,6 +105,76 @@ BoxCollider2D:
   m_Offset: {x: -.038344495, y: -.146867692}
   serializedVersion: 2
   m_Size: {x: .323310405, y: .211551666}
+--- !u!82 &8203430
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156882}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: .800000012
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!95 &9538750
 Animator:
   serializedVersion: 3
@@ -133,6 +204,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 4
+  audioClips:
+  - {fileID: 8300000, guid: a454aa4c4d44c9448bafc2e850cb9c42, type: 3}
+  - {fileID: 8300000, guid: 2dc824a96700a0549b85ef26eddac35a, type: 3}
+  - {fileID: 8300000, guid: e0f85ab350e67ac4cb84908479888ace, type: 3}
+  - {fileID: 8300000, guid: 5945c473066db3048823db09abddbe6a, type: 3}
+  - {fileID: 8300000, guid: 0e85f811df93b3b439f49816089dceba, type: 3}
 --- !u!114 &11464922
 MonoBehaviour:
   m_ObjectHideFlags: 1

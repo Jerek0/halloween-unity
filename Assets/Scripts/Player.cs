@@ -1,21 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using System.Collections.Generic;
 
-public class Player : ACharacter {   
+public class Player : ACharacter {
+
+    AudioSource audioSource;
+    public List<AudioClip> audioClips;
 
     bool keyUpPressed = false;
     bool keyDownPressed = false;
     bool keyRightPressed = false;
     bool keyLeftPressed = false;
-    bool keySpacePressed = false;
-    
+    bool keySpacePressed = false;    
 
     bool _isCrouch = false;
     public bool IsCrouch {
         set {
             _isCrouch = value;
-            IsMoving = false;
+            if(_isCrouch) IsMoving = false;
             animator.SetBool("isCrouch", value);
         }
         get { return _isCrouch; }
@@ -27,12 +30,21 @@ public class Player : ACharacter {
             _isMoving = value;
             animator.SetBool("isMoving", value);
 
-            if(_isMoving) {
-                if (IsGrounded)
+            if (_isMoving) {
+                if (IsGrounded) {
+                    if (!audioSource.isPlaying) {
+                        audioSource.Stop();
+                        audioSource.loop = true;
+                        audioSource.clip = audioClips[0];
+                        audioSource.Play();
+                    }
+
                     Move();
+                }
                 else
                     MoveInTheAir();
-            }            
+            }
+            else audioSource.loop = false;
         }
         get { return _isMoving; }
     }
@@ -51,6 +63,12 @@ public class Player : ACharacter {
         set {
             _isDead = value;
             animator.SetBool("isDead", value);
+            if (_isDead) {
+                audioSource.Stop();
+                audioSource.PlayOneShot(audioClips[2]);
+
+                GetComponent<BoxCollider2D>().enabled = false;
+            }
         }
         get { return _isDead; }
     }
@@ -75,7 +93,8 @@ public class Player : ACharacter {
         base.Start();
         OnGroundLeave();
 
-        GetComponent<SpriteRenderer>().material = new Material(Shader.Find("Sprites/Default"));
+        audioSource = GetComponent<AudioSource>();
+        GetComponent<SpriteRenderer>().material = new Material(Shader.Find("Sprites/Default"));        
 	}
 
     /* ######################## */
@@ -85,14 +104,13 @@ public class Player : ACharacter {
     void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) Application.LoadLevel("Home");
 
-        if(IsGrounded) {
-            keyUpPressed = Input.GetKey(KeyCode.UpArrow);
-            keySpacePressed = Input.GetKey(KeyCode.Space);
+        keyUpPressed = Input.GetKey(KeyCode.UpArrow);
+        keySpacePressed = Input.GetKey(KeyCode.Space);
+
+        if (IsGrounded) {
             keyDownPressed = Input.GetKey(KeyCode.DownArrow);
         } else {
             keyDownPressed = false;
-            keyUpPressed = false;
-            keySpacePressed = false;           
         }
 
         keyRightPressed = Input.GetKey(KeyCode.RightArrow);
@@ -119,13 +137,13 @@ public class Player : ACharacter {
                 else IsMoving = false;
 
                 // JUMP
-                if (keyUpPressed || keySpacePressed) {
+                if ((keyUpPressed || keySpacePressed) && IsGrounded && _jumpReleased) {
+                    audioSource.Stop();
+                    audioSource.PlayOneShot(audioClips[1]);
                     _jumpReleased = false;
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5f);
-                }
-
-                // JUMP HIGHER
-                if(!_jumpReleased && (keyUpPressed || keySpacePressed)) {
+                } else if(!_jumpReleased && (keyUpPressed || keySpacePressed)) {
+                    Debug.Log("jumphigher");
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y * 1.03f);
                                                
                     if (!keyUpPressed && !keySpacePressed)
@@ -188,7 +206,6 @@ public class Player : ACharacter {
    
     public IEnumerator Hurt() {
         IsDead = true;
-        GetComponent<BoxCollider2D>().enabled = false;
 
         yield return new WaitForSeconds(1.5f);
 
@@ -197,7 +214,17 @@ public class Player : ACharacter {
     }
 
     void OnTriggerEnter2D(Collider2D other) {
-        if (other.name == "youWin") IsDead=true;
+        if (other.name == "youWin") {
+            IsDead = true;
+        }
+    }
+
+    public void Collect() {
+        audioSource.PlayOneShot(audioClips[3]);
+    }
+
+    public void OnEnnemyKill() {
+        audioSource.PlayOneShot(audioClips[4]);
     }
     
 }

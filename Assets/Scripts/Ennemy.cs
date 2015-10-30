@@ -43,11 +43,13 @@ public class Ennemy : ACharacter {
      * @param Collision2D coll
      */
     public void OnCollisionEnter2D(Collision2D coll) {        
-        if(coll.collider.name == "Player"  && coll.relativeVelocity.y > 0f) {
+        if(coll.collider.GetComponent<Player>()  && coll.relativeVelocity.y > 0f) {
             // DIE
             walkSpeed = 0;
             CurrentAnimationState = STATE_DIE;
             ScoreManager.ennemies++;
+
+            coll.collider.GetComponent<Player>().OnEnnemyKill();
 
             coll.collider.GetComponent<Rigidbody2D>().velocity = new Vector2(coll.collider.GetComponent<Rigidbody2D>().velocity.x, 2f);
 
