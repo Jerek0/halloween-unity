@@ -9,9 +9,7 @@ public class Player : ACharacter {
     bool keyRightPressed = false;
     bool keyLeftPressed = false;
     bool keySpacePressed = false;
-
-    bool keyUpHold = false;
-    bool keySpaceHold = false;
+    
 
     bool _isCrouch = false;
     public bool IsCrouch {
@@ -88,16 +86,13 @@ public class Player : ACharacter {
         if (Input.GetKeyDown(KeyCode.Escape)) Application.LoadLevel("Home");
 
         if(IsGrounded) {
-            keyUpPressed = Input.GetKeyDown(KeyCode.UpArrow);
-            keySpacePressed = Input.GetKeyDown(KeyCode.Space);
+            keyUpPressed = Input.GetKey(KeyCode.UpArrow);
+            keySpacePressed = Input.GetKey(KeyCode.Space);
             keyDownPressed = Input.GetKey(KeyCode.DownArrow);
         } else {
             keyDownPressed = false;
             keyUpPressed = false;
-            keySpacePressed = false;
-
-            keyUpHold = Input.GetKey(KeyCode.UpArrow);
-            keySpaceHold = Input.GetKey(KeyCode.Space);           
+            keySpacePressed = false;           
         }
 
         keyRightPressed = Input.GetKey(KeyCode.RightArrow);
@@ -130,10 +125,10 @@ public class Player : ACharacter {
                 }
 
                 // JUMP HIGHER
-                if(!_jumpReleased && (keyUpHold || keySpaceHold)) {
+                if(!_jumpReleased && (keyUpPressed || keySpacePressed)) {
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y * 1.03f);
                                                
-                    if (!keySpaceHold && !keyUpHold)
+                    if (!keyUpPressed && !keySpacePressed)
                         _jumpReleased = true;
                 }
             }
