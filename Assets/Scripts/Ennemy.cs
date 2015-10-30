@@ -47,6 +47,7 @@ public class Ennemy : ACharacter {
             // DIE
             walkSpeed = 0;
             CurrentAnimationState = STATE_DIE;
+            ScoreManager.ennemies++;
 
             coll.collider.GetComponent<Rigidbody2D>().velocity = new Vector2(coll.collider.GetComponent<Rigidbody2D>().velocity.x, 2f);
 

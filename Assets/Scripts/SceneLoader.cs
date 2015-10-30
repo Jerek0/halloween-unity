@@ -16,6 +16,7 @@ public class SceneLoader : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	    if(listening && Input.anyKey) {
+            Debug.Log("input pressed");
             Application.LoadLevel(sceneToLoad);
         }
 	}
