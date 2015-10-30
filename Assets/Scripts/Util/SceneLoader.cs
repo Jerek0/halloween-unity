@@ -21,10 +21,8 @@ public class SceneLoader : MonoBehaviour {
         }
 	}
 
-    IEnumerator startListening() {
-        Debug.Log("start");
+    IEnumerator startListening() {       
         yield return new WaitForSeconds(delay);
-        Debug.Log("end");
         listening = true;
     }
 }

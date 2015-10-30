@@ -142,8 +142,7 @@ public class Player : ACharacter {
                     audioSource.PlayOneShot(audioClips[1]);
                     _jumpReleased = false;
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, 5f);
-                } else if(!_jumpReleased && (keyUpPressed || keySpacePressed)) {
-                    Debug.Log("jumphigher");
+                } else if(!_jumpReleased && (keyUpPressed || keySpacePressed)) { // JUMP Higher
                     rigidbody.velocity = new Vector2(rigidbody.velocity.x, rigidbody.velocity.y * 1.03f);
                                                
                     if (!keyUpPressed && !keySpacePressed)
@@ -154,6 +153,7 @@ public class Player : ACharacter {
             // Slow down
             if(IsGrounded && !IsMoving) rigidbody.velocity = new Vector2(rigidbody.velocity.x * 0.8f, rigidbody.velocity.y);
 
+            // Allows to tell the animator if we're going up or down
             VelY = rigidbody.velocity.y;                              
         }
     }
