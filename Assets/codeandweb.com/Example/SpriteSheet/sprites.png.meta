@@ -43,7 +43,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -68,7 +68,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -84,8 +84,20 @@ TextureImporter:
         width: 165
         height: 300
       alignment: 9
-      pivot: {x: .5, y: -.0566666685}
+      pivot: {x: 0.5, y: -0.05666667}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.5, y: 17}
+        - {x: 82.5, y: 317}
+        - {x: -59.5, y: 317}
+        - {x: -63.5, y: 291}
+        - {x: -82.5, y: 93}
+        - {x: -82.5, y: 52}
+        - {x: -61.5, y: 17}
+        - {x: -56.5, y: 17}
+        - {x: -15.5, y: 67}
+        - {x: 2.5, y: 18}
+        - {x: 33.5, y: 17}
     - name: turn-0002
       rect:
         serializedVersion: 2
@@ -94,8 +106,20 @@ TextureImporter:
         width: 165
         height: 300
       alignment: 9
-      pivot: {x: .5, y: -.0566666685}
+      pivot: {x: 0.5, y: -0.05666667}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 82.5, y: 17}
+        - {x: 82.5, y: 317}
+        - {x: -59.5, y: 317}
+        - {x: -63.5, y: 291}
+        - {x: -82.5, y: 93}
+        - {x: -82.5, y: 52}
+        - {x: -61.5, y: 17}
+        - {x: -56.5, y: 17}
+        - {x: -15.5, y: 67}
+        - {x: 2.5, y: 18}
+        - {x: 33.5, y: 17}
     - name: turn-0003
       rect:
         serializedVersion: 2
@@ -104,8 +128,17 @@ TextureImporter:
         width: 139
         height: 304
       alignment: 9
-      pivot: {x: .464028776, y: -.0625}
+      pivot: {x: 0.46402878, y: -0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 323}
+        - {x: -64.5, y: 131}
+        - {x: -64.5, y: 46}
+        - {x: -57.5, y: 32}
+        - {x: -45.5, y: 19}
+        - {x: 60.5, y: 19}
+        - {x: 74.5, y: 135}
+        - {x: 74.5, y: 323}
     - name: turn-0004
       rect:
         serializedVersion: 2
@@ -114,8 +147,17 @@ TextureImporter:
         width: 139
         height: 304
       alignment: 9
-      pivot: {x: .464028776, y: -.0625}
+      pivot: {x: 0.46402878, y: -0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47.5, y: 323}
+        - {x: -64.5, y: 131}
+        - {x: -64.5, y: 46}
+        - {x: -57.5, y: 32}
+        - {x: -45.5, y: 19}
+        - {x: 60.5, y: 19}
+        - {x: 74.5, y: 135}
+        - {x: 74.5, y: 323}
     - name: turn-0005
       rect:
         serializedVersion: 2
@@ -124,8 +166,22 @@ TextureImporter:
         width: 124
         height: 310
       alignment: 9
-      pivot: {x: .584677398, y: -.0580645166}
+      pivot: {x: 0.5846774, y: -0.058064517}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 164}
+        - {x: -72.5, y: 36}
+        - {x: -66.5, y: 30}
+        - {x: -44.5, y: 27}
+        - {x: -40.5, y: 27}
+        - {x: -36.5, y: 32}
+        - {x: -27.5, y: 26}
+        - {x: -8.5, y: 18}
+        - {x: 48.5, y: 18}
+        - {x: 51.5, y: 74}
+        - {x: 51.5, y: 328}
+        - {x: -41.5, y: 328}
+        - {x: -50.5, y: 327}
     - name: turn-0006
       rect:
         serializedVersion: 2
@@ -134,8 +190,22 @@ TextureImporter:
         width: 124
         height: 310
       alignment: 9
-      pivot: {x: .584677398, y: -.0580645166}
+      pivot: {x: 0.5846774, y: -0.058064517}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 164}
+        - {x: -72.5, y: 36}
+        - {x: -66.5, y: 30}
+        - {x: -44.5, y: 27}
+        - {x: -40.5, y: 27}
+        - {x: -36.5, y: 32}
+        - {x: -27.5, y: 26}
+        - {x: -8.5, y: 18}
+        - {x: 48.5, y: 18}
+        - {x: 51.5, y: 74}
+        - {x: 51.5, y: 328}
+        - {x: -41.5, y: 328}
+        - {x: -50.5, y: 327}
     - name: turn-0007
       rect:
         serializedVersion: 2
@@ -144,8 +214,16 @@ TextureImporter:
         width: 127
         height: 312
       alignment: 9
-      pivot: {x: .759842515, y: -.051282052}
+      pivot: {x: 0.7598425, y: -0.051282052}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 328}
+        - {x: -54.5, y: 216}
+        - {x: -96.5, y: 67}
+        - {x: -96.5, y: 25}
+        - {x: -70.5, y: 16}
+        - {x: 30.5, y: 16}
+        - {x: 30.5, y: 328}
     - name: turn-0008
       rect:
         serializedVersion: 2
@@ -154,8 +232,16 @@ TextureImporter:
         width: 127
         height: 312
       alignment: 9
-      pivot: {x: .759842515, y: -.051282052}
+      pivot: {x: 0.7598425, y: -0.051282052}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.5, y: 328}
+        - {x: -54.5, y: 216}
+        - {x: -96.5, y: 67}
+        - {x: -96.5, y: 25}
+        - {x: -70.5, y: 16}
+        - {x: 30.5, y: 16}
+        - {x: 30.5, y: 328}
     - name: turn-0009
       rect:
         serializedVersion: 2
@@ -164,8 +250,25 @@ TextureImporter:
         width: 127
         height: 298
       alignment: 9
-      pivot: {x: .720472455, y: -.0570469797}
+      pivot: {x: 0.72047246, y: -0.05704698}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 80}
+        - {x: -2.5, y: 85}
+        - {x: -4.5, y: 88}
+        - {x: -2.5, y: 87}
+        - {x: -1.5, y: 80}
+        - {x: 0.5, y: 22}
+        - {x: 9.5, y: 17}
+        - {x: 35.5, y: 34}
+        - {x: 35.5, y: 306}
+        - {x: 14.5, y: 315}
+        - {x: -91.5, y: 315}
+        - {x: -91.5, y: 17}
+        - {x: -30.5, y: 17}
+        - {x: -29.5, y: 18}
+        - {x: -30.5, y: 26}
+        - {x: -6.5, y: 73}
     - name: turn-0010
       rect:
         serializedVersion: 2
@@ -174,8 +277,25 @@ TextureImporter:
         width: 127
         height: 298
       alignment: 9
-      pivot: {x: .720472455, y: -.0570469797}
+      pivot: {x: 0.72047246, y: -0.05704698}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 80}
+        - {x: -2.5, y: 85}
+        - {x: -4.5, y: 88}
+        - {x: -2.5, y: 87}
+        - {x: -1.5, y: 80}
+        - {x: 0.5, y: 22}
+        - {x: 9.5, y: 17}
+        - {x: 35.5, y: 34}
+        - {x: 35.5, y: 306}
+        - {x: 14.5, y: 315}
+        - {x: -91.5, y: 315}
+        - {x: -91.5, y: 17}
+        - {x: -30.5, y: 17}
+        - {x: -29.5, y: 18}
+        - {x: -30.5, y: 26}
+        - {x: -6.5, y: 73}
     - name: turn-0011
       rect:
         serializedVersion: 2
@@ -184,8 +304,16 @@ TextureImporter:
         width: 149
         height: 305
       alignment: 9
-      pivot: {x: .687919438, y: -.0590163916}
+      pivot: {x: 0.68791944, y: -0.05901639}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 323}
+        - {x: -102.5, y: 323}
+        - {x: -102.5, y: 54}
+        - {x: -76.5, y: 18}
+        - {x: 44.5, y: 18}
+        - {x: 46.5, y: 33}
+        - {x: 46.5, y: 137}
     - name: turn-0012
       rect:
         serializedVersion: 2
@@ -194,8 +322,16 @@ TextureImporter:
         width: 149
         height: 305
       alignment: 9
-      pivot: {x: .687919438, y: -.0590163916}
+      pivot: {x: 0.68791944, y: -0.05901639}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 323}
+        - {x: -102.5, y: 323}
+        - {x: -102.5, y: 54}
+        - {x: -76.5, y: 18}
+        - {x: 44.5, y: 18}
+        - {x: 46.5, y: 33}
+        - {x: 46.5, y: 137}
     - name: walk-0001
       rect:
         serializedVersion: 2
@@ -204,8 +340,33 @@ TextureImporter:
         width: 156
         height: 314
       alignment: 9
-      pivot: {x: .496794879, y: -.0191082805}
+      pivot: {x: 0.49679488, y: -0.01910828}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 104}
+        - {x: 3.5, y: 102}
+        - {x: 7.5, y: 101}
+        - {x: 12.5, y: 93}
+        - {x: 19.5, y: 7}
+        - {x: 65.5, y: 17}
+        - {x: 78.5, y: 35}
+        - {x: 78.5, y: 42}
+        - {x: 69.5, y: 42}
+        - {x: 48.5, y: 253}
+        - {x: 46.5, y: 256}
+        - {x: 35.5, y: 254}
+        - {x: 57.5, y: 281}
+        - {x: 78.5, y: 310}
+        - {x: 78.5, y: 320}
+        - {x: -59.5, y: 320}
+        - {x: -77.5, y: 112}
+        - {x: -77.5, y: 21}
+        - {x: -54.5, y: 10}
+        - {x: -38.5, y: 6}
+        - {x: -24.5, y: 6}
+        - {x: 7.5, y: 94}
+        - {x: 8.5, y: 98}
+        - {x: 0.5, y: 103}
     - name: walk-0002
       rect:
         serializedVersion: 2
@@ -214,8 +375,33 @@ TextureImporter:
         width: 156
         height: 314
       alignment: 9
-      pivot: {x: .496794879, y: -.0191082805}
+      pivot: {x: 0.49679488, y: -0.01910828}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 104}
+        - {x: 3.5, y: 102}
+        - {x: 7.5, y: 101}
+        - {x: 12.5, y: 93}
+        - {x: 19.5, y: 7}
+        - {x: 65.5, y: 17}
+        - {x: 78.5, y: 35}
+        - {x: 78.5, y: 42}
+        - {x: 69.5, y: 42}
+        - {x: 48.5, y: 253}
+        - {x: 46.5, y: 256}
+        - {x: 35.5, y: 254}
+        - {x: 57.5, y: 281}
+        - {x: 78.5, y: 310}
+        - {x: 78.5, y: 320}
+        - {x: -59.5, y: 320}
+        - {x: -77.5, y: 112}
+        - {x: -77.5, y: 21}
+        - {x: -54.5, y: 10}
+        - {x: -38.5, y: 6}
+        - {x: -24.5, y: 6}
+        - {x: 7.5, y: 94}
+        - {x: 8.5, y: 98}
+        - {x: 0.5, y: 103}
     - name: walk-0003
       rect:
         serializedVersion: 2
@@ -224,8 +410,31 @@ TextureImporter:
         width: 166
         height: 301
       alignment: 9
-      pivot: {x: .557228923, y: -.0465116277}
+      pivot: {x: 0.5572289, y: -0.046511628}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 81}
+        - {x: -13.5, y: 68}
+        - {x: 4.5, y: 65}
+        - {x: 6.5, y: 69}
+        - {x: 14.5, y: 17}
+        - {x: 16.5, y: 15}
+        - {x: 73.5, y: 15}
+        - {x: 73.5, y: 315}
+        - {x: -4.5, y: 315}
+        - {x: -53.5, y: 291}
+        - {x: -56.5, y: 250}
+        - {x: -52.5, y: 229}
+        - {x: -40.5, y: 214}
+        - {x: -36.5, y: 211}
+        - {x: -39.5, y: 166}
+        - {x: -92.5, y: 74}
+        - {x: -92.5, y: 49}
+        - {x: -70.5, y: 14}
+        - {x: -65.5, y: 14}
+        - {x: -65.5, y: 18}
+        - {x: -25.5, y: 64}
+        - {x: -15.5, y: 89}
     - name: walk-0004
       rect:
         serializedVersion: 2
@@ -234,8 +443,31 @@ TextureImporter:
         width: 166
         height: 301
       alignment: 9
-      pivot: {x: .557228923, y: -.0465116277}
+      pivot: {x: 0.5572289, y: -0.046511628}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 81}
+        - {x: -13.5, y: 68}
+        - {x: 4.5, y: 65}
+        - {x: 6.5, y: 69}
+        - {x: 14.5, y: 17}
+        - {x: 16.5, y: 15}
+        - {x: 73.5, y: 15}
+        - {x: 73.5, y: 315}
+        - {x: -4.5, y: 315}
+        - {x: -53.5, y: 291}
+        - {x: -56.5, y: 250}
+        - {x: -52.5, y: 229}
+        - {x: -40.5, y: 214}
+        - {x: -36.5, y: 211}
+        - {x: -39.5, y: 166}
+        - {x: -92.5, y: 74}
+        - {x: -92.5, y: 49}
+        - {x: -70.5, y: 14}
+        - {x: -65.5, y: 14}
+        - {x: -65.5, y: 18}
+        - {x: -25.5, y: 64}
+        - {x: -15.5, y: 89}
     - name: walk-0005
       rect:
         serializedVersion: 2
@@ -244,8 +476,19 @@ TextureImporter:
         width: 150
         height: 305
       alignment: 9
-      pivot: {x: .443333328, y: -.0524590164}
+      pivot: {x: 0.44333333, y: -0.052459016}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 321}
+        - {x: -66.5, y: 310}
+        - {x: -66.5, y: 17}
+        - {x: -45.5, y: 26}
+        - {x: -42.5, y: 27}
+        - {x: -41.5, y: 31}
+        - {x: -9.5, y: 16}
+        - {x: 54.5, y: 16}
+        - {x: 83.5, y: 132}
+        - {x: 83.5, y: 321}
     - name: walk-0006
       rect:
         serializedVersion: 2
@@ -254,8 +497,19 @@ TextureImporter:
         width: 150
         height: 305
       alignment: 9
-      pivot: {x: .443333328, y: -.0524590164}
+      pivot: {x: 0.44333333, y: -0.052459016}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 321}
+        - {x: -66.5, y: 310}
+        - {x: -66.5, y: 17}
+        - {x: -45.5, y: 26}
+        - {x: -42.5, y: 27}
+        - {x: -41.5, y: 31}
+        - {x: -9.5, y: 16}
+        - {x: 54.5, y: 16}
+        - {x: 83.5, y: 132}
+        - {x: 83.5, y: 321}
     - name: walk-0007
       rect:
         serializedVersion: 2
@@ -264,8 +518,16 @@ TextureImporter:
         width: 139
         height: 304
       alignment: 9
-      pivot: {x: .363309354, y: -.0592105277}
+      pivot: {x: 0.36330935, y: -0.059210528}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 322}
+        - {x: -50.5, y: 295}
+        - {x: -50.5, y: 60}
+        - {x: -45.5, y: 18}
+        - {x: 36.5, y: 18}
+        - {x: 88.5, y: 230}
+        - {x: 88.5, y: 322}
     - name: walk-0008
       rect:
         serializedVersion: 2
@@ -274,8 +536,16 @@ TextureImporter:
         width: 139
         height: 304
       alignment: 9
-      pivot: {x: .363309354, y: -.0592105277}
+      pivot: {x: 0.36330935, y: -0.059210528}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 322}
+        - {x: -50.5, y: 295}
+        - {x: -50.5, y: 60}
+        - {x: -45.5, y: 18}
+        - {x: 36.5, y: 18}
+        - {x: 88.5, y: 230}
+        - {x: 88.5, y: 322}
     - name: walk-0009
       rect:
         serializedVersion: 2
@@ -284,8 +554,29 @@ TextureImporter:
         width: 137
         height: 309
       alignment: 9
-      pivot: {x: .434306562, y: -.0355987065}
+      pivot: {x: 0.43430656, y: -0.035598706}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 128}
+        - {x: 19.5, y: 124}
+        - {x: 15.5, y: 111}
+        - {x: 15.5, y: 106}
+        - {x: 17.5, y: 99}
+        - {x: 24.5, y: 92}
+        - {x: 29.5, y: 91}
+        - {x: 44.5, y: 111}
+        - {x: 77.5, y: 277}
+        - {x: 77.5, y: 320}
+        - {x: -12.5, y: 320}
+        - {x: -45.5, y: 300}
+        - {x: -55.5, y: 260}
+        - {x: -59.5, y: 227}
+        - {x: -59.5, y: 100}
+        - {x: -38.5, y: 11}
+        - {x: 25.5, y: 11}
+        - {x: 69.5, y: 27}
+        - {x: 22.5, y: 82}
+        - {x: 15.5, y: 104}
     - name: walk-0010
       rect:
         serializedVersion: 2
@@ -294,8 +585,29 @@ TextureImporter:
         width: 137
         height: 309
       alignment: 9
-      pivot: {x: .434306562, y: -.0355987065}
+      pivot: {x: 0.43430656, y: -0.035598706}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 128}
+        - {x: 19.5, y: 124}
+        - {x: 15.5, y: 111}
+        - {x: 15.5, y: 106}
+        - {x: 17.5, y: 99}
+        - {x: 24.5, y: 92}
+        - {x: 29.5, y: 91}
+        - {x: 44.5, y: 111}
+        - {x: 77.5, y: 277}
+        - {x: 77.5, y: 320}
+        - {x: -12.5, y: 320}
+        - {x: -45.5, y: 300}
+        - {x: -55.5, y: 260}
+        - {x: -59.5, y: 227}
+        - {x: -59.5, y: 100}
+        - {x: -38.5, y: 11}
+        - {x: 25.5, y: 11}
+        - {x: 69.5, y: 27}
+        - {x: 22.5, y: 82}
+        - {x: 15.5, y: 104}
     - name: walk-0011
       rect:
         serializedVersion: 2
@@ -304,8 +616,23 @@ TextureImporter:
         width: 133
         height: 309
       alignment: 9
-      pivot: {x: .477443606, y: -.0194174759}
+      pivot: {x: 0.4774436, y: -0.019417476}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 315}
+        - {x: -58.5, y: 309}
+        - {x: -63.5, y: 292}
+        - {x: -63.5, y: 35}
+        - {x: -32.5, y: 9}
+        - {x: -29.5, y: 11}
+        - {x: -29.5, y: 14}
+        - {x: -29.5, y: 11}
+        - {x: -27.5, y: 8}
+        - {x: -17.5, y: 6}
+        - {x: 43.5, y: 6}
+        - {x: 64.5, y: 93}
+        - {x: 69.5, y: 163}
+        - {x: 69.5, y: 315}
     - name: walk-0012
       rect:
         serializedVersion: 2
@@ -314,8 +641,23 @@ TextureImporter:
         width: 133
         height: 309
       alignment: 9
-      pivot: {x: .477443606, y: -.0194174759}
+      pivot: {x: 0.4774436, y: -0.019417476}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 315}
+        - {x: -58.5, y: 309}
+        - {x: -63.5, y: 292}
+        - {x: -63.5, y: 35}
+        - {x: -32.5, y: 9}
+        - {x: -29.5, y: 11}
+        - {x: -29.5, y: 14}
+        - {x: -29.5, y: 11}
+        - {x: -27.5, y: 8}
+        - {x: -17.5, y: 6}
+        - {x: 43.5, y: 6}
+        - {x: 64.5, y: 93}
+        - {x: 69.5, y: 163}
+        - {x: 69.5, y: 315}
     - name: walk-0013
       rect:
         serializedVersion: 2
@@ -324,8 +666,18 @@ TextureImporter:
         width: 144
         height: 312
       alignment: 9
-      pivot: {x: .420138896, y: -.028846154}
+      pivot: {x: 0.4201389, y: -0.028846154}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: 321}
+        - {x: -45.5, y: 321}
+        - {x: -60.5, y: 285}
+        - {x: -60.5, y: 30}
+        - {x: -58.5, y: 9}
+        - {x: 15.5, y: 9}
+        - {x: 16.5, y: 11}
+        - {x: 73.5, y: 89}
+        - {x: 83.5, y: 215}
     - name: walk-0014
       rect:
         serializedVersion: 2
@@ -334,8 +686,18 @@ TextureImporter:
         width: 144
         height: 312
       alignment: 9
-      pivot: {x: .420138896, y: -.028846154}
+      pivot: {x: 0.4201389, y: -0.028846154}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83.5, y: 321}
+        - {x: -45.5, y: 321}
+        - {x: -60.5, y: 285}
+        - {x: -60.5, y: 30}
+        - {x: -58.5, y: 9}
+        - {x: 15.5, y: 9}
+        - {x: 16.5, y: 11}
+        - {x: 73.5, y: 89}
+        - {x: 83.5, y: 215}
     - name: walk-0015
       rect:
         serializedVersion: 2
@@ -344,8 +706,27 @@ TextureImporter:
         width: 159
         height: 317
       alignment: 9
-      pivot: {x: .44339624, y: -.0157728698}
+      pivot: {x: 0.44339624, y: -0.01577287}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 98}
+        - {x: 10.5, y: 85}
+        - {x: -26.5, y: 49}
+        - {x: -22.5, y: 42}
+        - {x: -2.5, y: 26}
+        - {x: 20.5, y: 14}
+        - {x: 24.5, y: 16}
+        - {x: 83.5, y: 66}
+        - {x: 88.5, y: 107}
+        - {x: 88.5, y: 322}
+        - {x: -21.5, y: 322}
+        - {x: -70.5, y: 280}
+        - {x: -70.5, y: 7}
+        - {x: -48.5, y: 5}
+        - {x: -14.5, y: 5}
+        - {x: -26.5, y: 44}
+        - {x: -32.5, y: 43}
+        - {x: -8.5, y: 78}
     - name: walk-0016
       rect:
         serializedVersion: 2
@@ -354,8 +735,28 @@ TextureImporter:
         width: 159
         height: 317
       alignment: 9
-      pivot: {x: .44339624, y: -.0157728698}
+      pivot: {x: 0.44339624, y: -0.01577287}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 98}
+        - {x: 10.5, y: 85}
+        - {x: -26.5, y: 49}
+        - {x: -22.5, y: 42}
+        - {x: -2.5, y: 26}
+        - {x: 20.5, y: 14}
+        - {x: 24.5, y: 16}
+        - {x: 83.5, y: 66}
+        - {x: 88.5, y: 107}
+        - {x: 88.5, y: 322}
+        - {x: -21.5, y: 322}
+        - {x: -70.5, y: 280}
+        - {x: -70.5, y: 7}
+        - {x: -48.5, y: 5}
+        - {x: -14.5, y: 5}
+        - {x: -26.5, y: 44}
+        - {x: -32.5, y: 43}
+        - {x: -8.5, y: 78}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

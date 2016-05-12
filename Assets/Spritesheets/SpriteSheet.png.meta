@@ -103,7 +103,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -128,7 +128,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
@@ -144,8 +144,15 @@ TextureImporter:
         width: 47
         height: 64
       alignment: 9
-      pivot: {x: .53191489, y: .46875}
+      pivot: {x: 0.5319149, y: 0.46875}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -25, y: 32}
+        - {x: -25, y: -27}
+        - {x: -22, y: -30}
+        - {x: 22, y: -30}
+        - {x: 22, y: 34}
     - name: Monster-die_0001
       rect:
         serializedVersion: 2
@@ -154,8 +161,17 @@ TextureImporter:
         width: 49
         height: 57
       alignment: 9
-      pivot: {x: .53061223, y: .526315808}
+      pivot: {x: 0.53061223, y: 0.5263158}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 27}
+        - {x: -26, y: 18}
+        - {x: -26, y: -28}
+        - {x: -25, y: -30}
+        - {x: 18, y: -30}
+        - {x: 23, y: -27}
+        - {x: 23, y: 21}
+        - {x: 22, y: 27}
     - name: Monster-die_0002
       rect:
         serializedVersion: 2
@@ -164,8 +180,17 @@ TextureImporter:
         width: 52
         height: 49
       alignment: 9
-      pivot: {x: .519230783, y: .612244904}
+      pivot: {x: 0.5192308, y: 0.6122449}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 19}
+        - {x: -27, y: 16}
+        - {x: -27, y: -29}
+        - {x: -26, y: -30}
+        - {x: 22, y: -30}
+        - {x: 25, y: -22}
+        - {x: 25, y: 10}
+        - {x: 19, y: 19}
     - name: Monster-die_0003
       rect:
         serializedVersion: 2
@@ -174,8 +199,15 @@ TextureImporter:
         width: 55
         height: 42
       alignment: 9
-      pivot: {x: .5090909, y: .714285731}
+      pivot: {x: 0.5090909, y: 0.71428573}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 12}
+        - {x: -28, y: -4}
+        - {x: -28, y: -30}
+        - {x: 27, y: -30}
+        - {x: 27, y: 3}
+        - {x: 23, y: 12}
     - name: Monster-die_0004
       rect:
         serializedVersion: 2
@@ -184,8 +216,14 @@ TextureImporter:
         width: 56
         height: 34
       alignment: 9
-      pivot: {x: .517857134, y: .882352948}
+      pivot: {x: 0.51785713, y: 0.88235295}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 4}
+        - {x: -29, y: 1}
+        - {x: -29, y: -30}
+        - {x: 27, y: -30}
+        - {x: 27, y: 4}
     - name: Monster-walk_0000
       rect:
         serializedVersion: 2
@@ -194,8 +232,15 @@ TextureImporter:
         width: 47
         height: 68
       alignment: 9
-      pivot: {x: .53191489, y: .5}
+      pivot: {x: 0.5319149, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -25, y: 15}
+        - {x: -25, y: -34}
+        - {x: 13, y: -34}
+        - {x: 22, y: -30}
+        - {x: 22, y: 34}
     - name: Monster-walk_0001
       rect:
         serializedVersion: 2
@@ -204,8 +249,15 @@ TextureImporter:
         width: 47
         height: 68
       alignment: 9
-      pivot: {x: .53191489, y: .5}
+      pivot: {x: 0.5319149, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 34}
+        - {x: -25, y: 15}
+        - {x: -25, y: -34}
+        - {x: 13, y: -34}
+        - {x: 22, y: -30}
+        - {x: 22, y: 34}
     - name: Monster-walk_0002
       rect:
         serializedVersion: 2
@@ -214,8 +266,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 34}
+        - {x: -18, y: 34}
+        - {x: -25, y: 18}
+        - {x: -25, y: -34}
+        - {x: 9, y: -34}
+        - {x: 21, y: -23}
+        - {x: 21, y: 28}
     - name: Monster-walk_0003
       rect:
         serializedVersion: 2
@@ -224,8 +284,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 34}
+        - {x: -18, y: 34}
+        - {x: -25, y: 18}
+        - {x: -25, y: -34}
+        - {x: 9, y: -34}
+        - {x: 21, y: -23}
+        - {x: 21, y: 28}
     - name: Monster-walk_0004
       rect:
         serializedVersion: 2
@@ -234,8 +302,14 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .565217376, y: .5}
+      pivot: {x: 0.5652174, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 34}
+        - {x: -26, y: -34}
+        - {x: 8, y: -34}
+        - {x: 20, y: -25}
+        - {x: 20, y: 34}
     - name: Monster-walk_0005
       rect:
         serializedVersion: 2
@@ -244,8 +318,14 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .565217376, y: .5}
+      pivot: {x: 0.5652174, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 34}
+        - {x: -26, y: -34}
+        - {x: 8, y: -34}
+        - {x: 20, y: -25}
+        - {x: 20, y: 34}
     - name: Monster-walk_0006
       rect:
         serializedVersion: 2
@@ -254,8 +334,17 @@ TextureImporter:
         width: 52
         height: 68
       alignment: 9
-      pivot: {x: .557692289, y: .5}
+      pivot: {x: 0.5576923, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -29, y: 5}
+        - {x: -29, y: -29}
+        - {x: -26, y: -34}
+        - {x: 20, y: -34}
+        - {x: 23, y: -26}
+        - {x: 23, y: 32}
+        - {x: 18, y: 34}
     - name: Monster-walk_0007
       rect:
         serializedVersion: 2
@@ -264,8 +353,17 @@ TextureImporter:
         width: 52
         height: 68
       alignment: 9
-      pivot: {x: .557692289, y: .5}
+      pivot: {x: 0.5576923, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -29, y: 5}
+        - {x: -29, y: -29}
+        - {x: -26, y: -34}
+        - {x: 20, y: -34}
+        - {x: 23, y: -26}
+        - {x: 23, y: 32}
+        - {x: 18, y: 34}
     - name: Monster-walk_0008
       rect:
         serializedVersion: 2
@@ -274,8 +372,16 @@ TextureImporter:
         width: 61
         height: 66
       alignment: 9
-      pivot: {x: .540983617, y: .484848499}
+      pivot: {x: 0.5409836, y: 0.4848485}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34}
+        - {x: -33, y: 12}
+        - {x: -33, y: -32}
+        - {x: 25, y: -32}
+        - {x: 28, y: -31}
+        - {x: 28, y: 21}
+        - {x: 13, y: 34}
     - name: Monster-walk_0009
       rect:
         serializedVersion: 2
@@ -284,8 +390,16 @@ TextureImporter:
         width: 61
         height: 66
       alignment: 9
-      pivot: {x: .540983617, y: .484848499}
+      pivot: {x: 0.5409836, y: 0.4848485}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34}
+        - {x: -33, y: 12}
+        - {x: -33, y: -32}
+        - {x: 25, y: -32}
+        - {x: 28, y: -31}
+        - {x: 28, y: 21}
+        - {x: 13, y: 34}
     - name: Monster-walk_0010
       rect:
         serializedVersion: 2
@@ -294,8 +408,17 @@ TextureImporter:
         width: 67
         height: 67
       alignment: 9
-      pivot: {x: .50746268, y: .50746268}
+      pivot: {x: 0.5074627, y: 0.5074627}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -23}
+        - {x: -27, y: -33}
+        - {x: -15, y: -34}
+        - {x: 33, y: -34}
+        - {x: 33, y: 12}
+        - {x: 26, y: 33}
+        - {x: -15, y: 33}
+        - {x: -34, y: 8}
     - name: Monster-walk_0011
       rect:
         serializedVersion: 2
@@ -304,8 +427,17 @@ TextureImporter:
         width: 67
         height: 67
       alignment: 9
-      pivot: {x: .50746268, y: .50746268}
+      pivot: {x: 0.5074627, y: 0.5074627}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: -23}
+        - {x: -27, y: -33}
+        - {x: -15, y: -34}
+        - {x: 33, y: -34}
+        - {x: 33, y: 12}
+        - {x: 26, y: 33}
+        - {x: -15, y: 33}
+        - {x: -34, y: 8}
     - name: Monster-walk_0012
       rect:
         serializedVersion: 2
@@ -314,8 +446,16 @@ TextureImporter:
         width: 56
         height: 68
       alignment: 9
-      pivot: {x: .553571403, y: .5}
+      pivot: {x: 0.5535714, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -31, y: 18}
+        - {x: -31, y: -27}
+        - {x: -24, y: -34}
+        - {x: 25, y: -34}
+        - {x: 25, y: 23}
+        - {x: 16, y: 34}
     - name: Monster-walk_0013
       rect:
         serializedVersion: 2
@@ -324,8 +464,16 @@ TextureImporter:
         width: 56
         height: 68
       alignment: 9
-      pivot: {x: .553571403, y: .5}
+      pivot: {x: 0.5535714, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -31, y: 18}
+        - {x: -31, y: -27}
+        - {x: -24, y: -34}
+        - {x: 25, y: -34}
+        - {x: 25, y: 23}
+        - {x: 16, y: 34}
     - name: Monster-walk_0014
       rect:
         serializedVersion: 2
@@ -334,8 +482,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -25, y: 27}
+        - {x: -25, y: -30}
+        - {x: -21, y: -34}
+        - {x: 21, y: -34}
+        - {x: 21, y: 26}
+        - {x: 15, y: 34}
     - name: Monster-walk_0015
       rect:
         serializedVersion: 2
@@ -344,8 +500,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 34}
+        - {x: -25, y: 27}
+        - {x: -25, y: -30}
+        - {x: -21, y: -34}
+        - {x: 21, y: -34}
+        - {x: 21, y: 26}
+        - {x: 15, y: 34}
     - name: Monster-walk_0016
       rect:
         serializedVersion: 2
@@ -354,8 +518,15 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -25, y: 26}
+        - {x: -25, y: -28}
+        - {x: -17, y: -34}
+        - {x: 21, y: -34}
+        - {x: 21, y: 34}
     - name: Monster-walk_0017
       rect:
         serializedVersion: 2
@@ -364,8 +535,15 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -25, y: 26}
+        - {x: -25, y: -28}
+        - {x: -17, y: -34}
+        - {x: 21, y: -34}
+        - {x: 21, y: 34}
     - name: Monster-walk_0018
       rect:
         serializedVersion: 2
@@ -374,8 +552,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -25, y: 11}
+        - {x: -25, y: -27}
+        - {x: -14, y: -34}
+        - {x: 15, y: -34}
+        - {x: 21, y: -22}
+        - {x: 21, y: 34}
     - name: Monster-walk_0019
       rect:
         serializedVersion: 2
@@ -384,8 +570,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .543478251, y: .5}
+      pivot: {x: 0.54347825, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -25, y: 11}
+        - {x: -25, y: -27}
+        - {x: -14, y: -34}
+        - {x: 15, y: -34}
+        - {x: 21, y: -22}
+        - {x: 21, y: 34}
     - name: Monster-walk_0020
       rect:
         serializedVersion: 2
@@ -394,8 +588,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .521739125, y: .5}
+      pivot: {x: 0.5217391, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -24, y: 15}
+        - {x: -24, y: -30}
+        - {x: -18, y: -34}
+        - {x: 15, y: -34}
+        - {x: 22, y: -28}
+        - {x: 22, y: 34}
     - name: Monster-walk_0021
       rect:
         serializedVersion: 2
@@ -404,8 +606,16 @@ TextureImporter:
         width: 46
         height: 68
       alignment: 9
-      pivot: {x: .521739125, y: .5}
+      pivot: {x: 0.5217391, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 34}
+        - {x: -24, y: 15}
+        - {x: -24, y: -30}
+        - {x: -18, y: -34}
+        - {x: 15, y: -34}
+        - {x: 22, y: -28}
+        - {x: 22, y: 34}
     - name: Monster-walk_0022
       rect:
         serializedVersion: 2
@@ -414,8 +624,18 @@ TextureImporter:
         width: 47
         height: 67
       alignment: 9
-      pivot: {x: .510638297, y: .49253732}
+      pivot: {x: 0.5106383, y: 0.49253732}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 34}
+        - {x: -18, y: 34}
+        - {x: -24, y: 19}
+        - {x: -24, y: -28}
+        - {x: -14, y: -33}
+        - {x: 11, y: -33}
+        - {x: 21, y: -22}
+        - {x: 23, y: -17}
+        - {x: 23, y: 32}
     - name: Monster-walk_0023
       rect:
         serializedVersion: 2
@@ -424,8 +644,18 @@ TextureImporter:
         width: 47
         height: 67
       alignment: 9
-      pivot: {x: .510638297, y: .49253732}
+      pivot: {x: 0.5106383, y: 0.49253732}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 34}
+        - {x: -18, y: 34}
+        - {x: -24, y: 19}
+        - {x: -24, y: -28}
+        - {x: -14, y: -33}
+        - {x: 11, y: -33}
+        - {x: 21, y: -22}
+        - {x: 23, y: -17}
+        - {x: 23, y: 32}
     - name: Monster-walk_0024
       rect:
         serializedVersion: 2
@@ -434,8 +664,16 @@ TextureImporter:
         width: 47
         height: 66
       alignment: 9
-      pivot: {x: .489361703, y: .5}
+      pivot: {x: 0.4893617, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 33}
+        - {x: -23, y: 9}
+        - {x: -23, y: -31}
+        - {x: -19, y: -33}
+        - {x: 24, y: -33}
+        - {x: 24, y: 23}
+        - {x: 18, y: 33}
     - name: Monster-walk_0025
       rect:
         serializedVersion: 2
@@ -444,8 +682,16 @@ TextureImporter:
         width: 47
         height: 66
       alignment: 9
-      pivot: {x: .489361703, y: .5}
+      pivot: {x: 0.4893617, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 33}
+        - {x: -23, y: 9}
+        - {x: -23, y: -31}
+        - {x: -19, y: -33}
+        - {x: 24, y: -33}
+        - {x: 24, y: 23}
+        - {x: 18, y: 33}
     - name: Patch-die_0000
       rect:
         serializedVersion: 2
@@ -454,8 +700,22 @@ TextureImporter:
         width: 63
         height: 119
       alignment: 9
-      pivot: {x: .428571433, y: .592436969}
+      pivot: {x: 0.42857143, y: 0.59243697}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -65.5}
+        - {x: 13, y: -68.5}
+        - {x: 15, y: -70.5}
+        - {x: 36, y: -70.5}
+        - {x: 36, y: 43.5}
+        - {x: 19, y: 48.5}
+        - {x: -27, y: 48.5}
+        - {x: -27, y: -37.5}
+        - {x: -8, y: -70.5}
+        - {x: 12, y: -70.5}
+        - {x: 12, y: -69.5}
+        - {x: 10, y: -66.5}
+        - {x: 7, y: -65.5}
     - name: Patch-die_0001
       rect:
         serializedVersion: 2
@@ -464,8 +724,17 @@ TextureImporter:
         width: 70
         height: 109
       alignment: 9
-      pivot: {x: .342857152, y: .646789014}
+      pivot: {x: 0.34285715, y: 0.646789}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: 38.5}
+        - {x: -24, y: 38.5}
+        - {x: -24, y: -60.5}
+        - {x: -2, y: -70.5}
+        - {x: 32, y: -70.5}
+        - {x: 40, y: -56.5}
+        - {x: 46, y: -41.5}
+        - {x: 46, y: 24.5}
     - name: Patch-die_0002
       rect:
         serializedVersion: 2
@@ -474,8 +743,24 @@ TextureImporter:
         width: 74
         height: 93
       alignment: 9
-      pivot: {x: .351351351, y: .768817186}
+      pivot: {x: 0.35135135, y: 0.7688172}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 21.5}
+        - {x: -26, y: 10.5}
+        - {x: -26, y: -51.5}
+        - {x: -24, y: -57.5}
+        - {x: -13, y: -60.5}
+        - {x: -3, y: -59.5}
+        - {x: 4, y: -56.5}
+        - {x: 5, y: -54.5}
+        - {x: 5, y: -55.5}
+        - {x: 1, y: -66.5}
+        - {x: 1, y: -69.5}
+        - {x: 2, y: -71.5}
+        - {x: 43, y: -71.5}
+        - {x: 48, y: -48.5}
+        - {x: 48, y: 21.5}
     - name: Patch-die_0003
       rect:
         serializedVersion: 2
@@ -484,8 +769,16 @@ TextureImporter:
         width: 75
         height: 80
       alignment: 9
-      pivot: {x: .333333343, y: .893750012}
+      pivot: {x: 0.33333334, y: 0.89375}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 8.5}
+        - {x: -25, y: 1.5}
+        - {x: -25, y: -71.5}
+        - {x: 46, y: -71.5}
+        - {x: 50, y: -53.5}
+        - {x: 50, y: 4.5}
+        - {x: 36, y: 8.5}
     - name: Patch-die_0004
       rect:
         serializedVersion: 2
@@ -494,8 +787,22 @@ TextureImporter:
         width: 74
         height: 64
       alignment: 9
-      pivot: {x: .32432431, y: 1.1171875}
+      pivot: {x: 0.3243243, y: 1.1171875}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: -7.5}
+        - {x: -19, y: -11.5}
+        - {x: -24, y: -29.5}
+        - {x: -24, y: -35.5}
+        - {x: -22, y: -43.5}
+        - {x: -5, y: -57.5}
+        - {x: -16, y: -48.5}
+        - {x: -24, y: -52.5}
+        - {x: -24, y: -69.5}
+        - {x: -23, y: -71.5}
+        - {x: 43, y: -71.5}
+        - {x: 50, y: -53.5}
+        - {x: 50, y: -7.5}
     - name: Patch-die_0005
       rect:
         serializedVersion: 2
@@ -504,8 +811,16 @@ TextureImporter:
         width: 77
         height: 64
       alignment: 9
-      pivot: {x: .350649357, y: 1.1171875}
+      pivot: {x: 0.35064936, y: 1.1171875}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: -7.5}
+        - {x: -22, y: -22.5}
+        - {x: -27, y: -44.5}
+        - {x: -27, y: -71.5}
+        - {x: 50, y: -71.5}
+        - {x: 50, y: -44.5}
+        - {x: 30, y: -7.5}
     - name: Patch-duck_0000
       rect:
         serializedVersion: 2
@@ -514,8 +829,22 @@ TextureImporter:
         width: 63
         height: 113
       alignment: 9
-      pivot: {x: .206349209, y: .623893797}
+      pivot: {x: 0.20634921, y: 0.6238938}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 42.5}
+        - {x: -13, y: 27.5}
+        - {x: -13, y: -70.5}
+        - {x: 39, y: -70.5}
+        - {x: 50, y: -28.5}
+        - {x: 50, y: 19.5}
+        - {x: 21, y: 42.5}
+      - - {x: -13, y: 33.5}
+        - {x: -13, y: 20.5}
+        - {x: -10, y: 21.5}
+        - {x: -9, y: 25.5}
+        - {x: -9, y: 30.5}
+        - {x: -12, y: 33.5}
     - name: Patch-duck_0001
       rect:
         serializedVersion: 2
@@ -524,8 +853,20 @@ TextureImporter:
         width: 63
         height: 86
       alignment: 9
-      pivot: {x: .206349209, y: .819767416}
+      pivot: {x: 0.20634921, y: 0.8197674}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 15.5}
+        - {x: -4, y: 15.5}
+        - {x: -6, y: 14.5}
+        - {x: -13, y: -21.5}
+        - {x: -13, y: -55.5}
+        - {x: -7, y: -69.5}
+        - {x: -6, y: -70.5}
+        - {x: 32, y: -70.5}
+        - {x: 33, y: -69.5}
+        - {x: 50, y: -49.5}
+        - {x: 50, y: -7.5}
     - name: Patch-fall_0000
       rect:
         serializedVersion: 2
@@ -534,8 +875,18 @@ TextureImporter:
         width: 81
         height: 110
       alignment: 9
-      pivot: {x: .518518507, y: .668181837}
+      pivot: {x: 0.5185185, y: 0.66818184}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 36.5}
+        - {x: -42, y: -38.5}
+        - {x: -27, y: -62.5}
+        - {x: -2, y: -70.5}
+        - {x: 8, y: -73.5}
+        - {x: 31, y: -73.5}
+        - {x: 39, y: -30.5}
+        - {x: 39, y: 25.5}
+        - {x: 12, y: 36.5}
     - name: Patch-fall_0001
       rect:
         serializedVersion: 2
@@ -544,8 +895,15 @@ TextureImporter:
         width: 81
         height: 113
       alignment: 9
-      pivot: {x: .530864179, y: .650442481}
+      pivot: {x: 0.5308642, y: 0.6504425}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43, y: 39.5}
+        - {x: -43, y: -32.5}
+        - {x: -3, y: -73.5}
+        - {x: 38, y: -73.5}
+        - {x: 38, y: 28.5}
+        - {x: 6, y: 39.5}
     - name: Patch-fall_0002
       rect:
         serializedVersion: 2
@@ -554,8 +912,17 @@ TextureImporter:
         width: 87
         height: 132
       alignment: 9
-      pivot: {x: .574712634, y: .541666687}
+      pivot: {x: 0.57471263, y: 0.5416667}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 60.5}
+        - {x: -38, y: 60.5}
+        - {x: -50, y: 33.5}
+        - {x: -50, y: -34.5}
+        - {x: -21, y: -71.5}
+        - {x: 37, y: -71.5}
+        - {x: 37, y: 39.5}
+        - {x: 33, y: 42.5}
     - name: Patch-fall_0003
       rect:
         serializedVersion: 2
@@ -564,8 +931,19 @@ TextureImporter:
         width: 77
         height: 131
       alignment: 9
-      pivot: {x: .584415555, y: .538167953}
+      pivot: {x: 0.58441556, y: 0.53816795}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 60.5}
+        - {x: -30, y: 60.5}
+        - {x: -41, y: 51.5}
+        - {x: -45, y: 45.5}
+        - {x: -45, y: -12.5}
+        - {x: -3, y: -70.5}
+        - {x: 26, y: -70.5}
+        - {x: 32, y: -55.5}
+        - {x: 32, y: 35.5}
+        - {x: 28, y: 41.5}
     - name: Patch-fall_0004
       rect:
         serializedVersion: 2
@@ -574,8 +952,18 @@ TextureImporter:
         width: 86
         height: 131
       alignment: 9
-      pivot: {x: .45348838, y: .54580152}
+      pivot: {x: 0.45348838, y: 0.5458015}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 59.5}
+        - {x: -36, y: 59.5}
+        - {x: -39, y: 57.5}
+        - {x: -39, y: -23.5}
+        - {x: -20, y: -71.5}
+        - {x: 29, y: -71.5}
+        - {x: 39, y: -65.5}
+        - {x: 47, y: -19.5}
+        - {x: 47, y: 31.5}
     - name: Patch-fall_0005
       rect:
         serializedVersion: 2
@@ -584,8 +972,20 @@ TextureImporter:
         width: 70
         height: 100
       alignment: 9
-      pivot: {x: .357142866, y: .714999974}
+      pivot: {x: 0.35714287, y: 0.715}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -45.5}
+        - {x: 45, y: -19.5}
+        - {x: 45, y: 18.5}
+        - {x: 38, y: 28.5}
+        - {x: -9, y: 28.5}
+        - {x: -25, y: 17.5}
+        - {x: -25, y: -71.5}
+        - {x: 32, y: -71.5}
+        - {x: 33, y: -69.5}
+        - {x: 30, y: -66.5}
+        - {x: 32, y: -56.5}
     - name: Patch-hurt_0000
       rect:
         serializedVersion: 2
@@ -594,8 +994,16 @@ TextureImporter:
         width: 83
         height: 103
       alignment: 9
-      pivot: {x: .566265047, y: .684466004}
+      pivot: {x: 0.56626505, y: 0.684466}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 32.5}
+        - {x: -47, y: -13.5}
+        - {x: -25, y: -70.5}
+        - {x: 17, y: -70.5}
+        - {x: 36, y: -60.5}
+        - {x: 36, y: -22.5}
+        - {x: 20, y: 32.5}
     - name: Patch-hurt_0001
       rect:
         serializedVersion: 2
@@ -604,8 +1012,28 @@ TextureImporter:
         width: 87
         height: 99
       alignment: 9
-      pivot: {x: .574712634, y: .712121189}
+      pivot: {x: 0.57471263, y: 0.7121212}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -32.5}
+        - {x: 12, y: -18.5}
+        - {x: 3, y: -9.5}
+        - {x: 3, y: -4.5}
+        - {x: 1, y: -2.5}
+        - {x: 6, y: -7.5}
+        - {x: 9, y: -16.5}
+        - {x: 15, y: -21.5}
+        - {x: 21, y: -23.5}
+        - {x: 29, y: -13.5}
+        - {x: 30, y: 20.5}
+        - {x: 15, y: 28.5}
+        - {x: -50, y: 28.5}
+        - {x: -50, y: -23.5}
+        - {x: -24, y: -70.5}
+        - {x: 21, y: -70.5}
+        - {x: 37, y: -57.5}
+        - {x: 37, y: -49.5}
+        - {x: 28, y: -38.5}
     - name: Patch-hurt_0002
       rect:
         serializedVersion: 2
@@ -614,8 +1042,28 @@ TextureImporter:
         width: 87
         height: 99
       alignment: 9
-      pivot: {x: .574712634, y: .712121189}
+      pivot: {x: 0.57471263, y: 0.7121212}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23, y: -32.5}
+        - {x: 12, y: -18.5}
+        - {x: 3, y: -9.5}
+        - {x: 3, y: -4.5}
+        - {x: 1, y: -2.5}
+        - {x: 6, y: -7.5}
+        - {x: 9, y: -16.5}
+        - {x: 15, y: -21.5}
+        - {x: 21, y: -23.5}
+        - {x: 29, y: -13.5}
+        - {x: 30, y: 20.5}
+        - {x: 15, y: 28.5}
+        - {x: -50, y: 28.5}
+        - {x: -50, y: -23.5}
+        - {x: -24, y: -70.5}
+        - {x: 21, y: -70.5}
+        - {x: 37, y: -57.5}
+        - {x: 37, y: -49.5}
+        - {x: 28, y: -38.5}
     - name: Patch-hurt_0003
       rect:
         serializedVersion: 2
@@ -624,8 +1072,16 @@ TextureImporter:
         width: 83
         height: 103
       alignment: 9
-      pivot: {x: .566265047, y: .684466004}
+      pivot: {x: 0.56626505, y: 0.684466}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 32.5}
+        - {x: -47, y: -13.5}
+        - {x: -25, y: -70.5}
+        - {x: 17, y: -70.5}
+        - {x: 36, y: -60.5}
+        - {x: 36, y: -22.5}
+        - {x: 20, y: 32.5}
     - name: Patch-hurt_0004
       rect:
         serializedVersion: 2
@@ -634,8 +1090,15 @@ TextureImporter:
         width: 82
         height: 108
       alignment: 9
-      pivot: {x: .609756112, y: .652777791}
+      pivot: {x: 0.6097561, y: 0.6527778}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 37.5}
+        - {x: -50, y: -43.5}
+        - {x: -26, y: -70.5}
+        - {x: 32, y: -70.5}
+        - {x: 32, y: -9.5}
+        - {x: 23, y: 37.5}
     - name: Patch-hurt_0005
       rect:
         serializedVersion: 2
@@ -644,8 +1107,15 @@ TextureImporter:
         width: 82
         height: 108
       alignment: 9
-      pivot: {x: .609756112, y: .652777791}
+      pivot: {x: 0.6097561, y: 0.6527778}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50, y: 37.5}
+        - {x: -50, y: -43.5}
+        - {x: -26, y: -70.5}
+        - {x: 32, y: -70.5}
+        - {x: 32, y: -9.5}
+        - {x: 23, y: 37.5}
     - name: Patch-idle_0000
       rect:
         serializedVersion: 2
@@ -654,8 +1124,23 @@ TextureImporter:
         width: 60
         height: 119
       alignment: 9
-      pivot: {x: .449999988, y: .60084033}
+      pivot: {x: 0.45, y: 0.60084033}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: -66.5}
+        - {x: 13, y: -69.5}
+        - {x: 15, y: -71.5}
+        - {x: 33, y: -71.5}
+        - {x: 33, y: 29.5}
+        - {x: 3, y: 47.5}
+        - {x: -27, y: 47.5}
+        - {x: -27, y: 11.5}
+        - {x: -21, y: -35.5}
+        - {x: -10, y: -71.5}
+        - {x: 12, y: -71.5}
+        - {x: 12, y: -70.5}
+        - {x: 10, y: -67.5}
+        - {x: 7, y: -66.5}
     - name: Patch-jump_0000
       rect:
         serializedVersion: 2
@@ -664,8 +1149,15 @@ TextureImporter:
         width: 56
         height: 145
       alignment: 9
-      pivot: {x: .517857134, y: .493103445}
+      pivot: {x: 0.51785713, y: 0.49310344}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 73.5}
+        - {x: -29, y: 56.5}
+        - {x: -29, y: 32.5}
+        - {x: -12, y: -71.5}
+        - {x: 27, y: -71.5}
+        - {x: 27, y: 73.5}
     - name: Patch-jump_0001
       rect:
         serializedVersion: 2
@@ -674,8 +1166,20 @@ TextureImporter:
         width: 57
         height: 144
       alignment: 9
-      pivot: {x: .526315808, y: .489583343}
+      pivot: {x: 0.5263158, y: 0.48958334}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 7.5}
+        - {x: 27, y: 73.5}
+        - {x: -15, y: 73.5}
+        - {x: -30, y: 65.5}
+        - {x: -30, y: 16.5}
+        - {x: -9, y: -45.5}
+        - {x: 9, y: -70.5}
+        - {x: 19, y: -70.5}
+        - {x: 24, y: -57.5}
+        - {x: 26, y: -46.5}
+        - {x: 22, y: -13.5}
     - name: Patch-jump_0002
       rect:
         serializedVersion: 2
@@ -684,8 +1188,20 @@ TextureImporter:
         width: 60
         height: 132
       alignment: 9
-      pivot: {x: .5, y: .534090936}
+      pivot: {x: 0.5, y: 0.53409094}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: 35.5}
+        - {x: 13, y: 61.5}
+        - {x: -23, y: 61.5}
+        - {x: -30, y: 56.5}
+        - {x: -30, y: -37.5}
+        - {x: -29, y: -43.5}
+        - {x: 12, y: -70.5}
+        - {x: 19, y: -70.5}
+        - {x: 22, y: -54.5}
+        - {x: 22, y: -28.5}
+        - {x: 30, y: 0.5}
     - name: Patch-jump_0003
       rect:
         serializedVersion: 2
@@ -694,8 +1210,16 @@ TextureImporter:
         width: 61
         height: 124
       alignment: 9
-      pivot: {x: .475409836, y: .568548381}
+      pivot: {x: 0.47540984, y: 0.5685484}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 53.5}
+        - {x: -29, y: 53.5}
+        - {x: -29, y: -52.5}
+        - {x: 11, y: -70.5}
+        - {x: 32, y: -70.5}
+        - {x: 32, y: 35.5}
+        - {x: 21, y: 50.5}
     - name: Patch-jump_0004
       rect:
         serializedVersion: 2
@@ -704,8 +1228,19 @@ TextureImporter:
         width: 79
         height: 111
       alignment: 9
-      pivot: {x: .518987358, y: .518018007}
+      pivot: {x: 0.51898736, y: 0.518018}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 53.5}
+        - {x: -37, y: 53.5}
+        - {x: -41, y: 50.5}
+        - {x: -41, y: -19.5}
+        - {x: -31, y: -52.5}
+        - {x: -9, y: -57.5}
+        - {x: 31, y: -57.5}
+        - {x: 38, y: -11.5}
+        - {x: 38, y: 36.5}
+        - {x: 27, y: 47.5}
     - name: Patch-jump_0005
       rect:
         serializedVersion: 2
@@ -714,8 +1249,18 @@ TextureImporter:
         width: 81
         height: 111
       alignment: 9
-      pivot: {x: .543209851, y: .518018007}
+      pivot: {x: 0.54320985, y: 0.518018}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44, y: 53.5}
+        - {x: -44, y: -8.5}
+        - {x: -15, y: -45.5}
+        - {x: 6, y: -56.5}
+        - {x: 10, y: -57.5}
+        - {x: 28, y: -57.5}
+        - {x: 37, y: -28.5}
+        - {x: 37, y: 40.5}
+        - {x: 4, y: 53.5}
     - name: Patch-land_0000
       rect:
         serializedVersion: 2
@@ -724,8 +1269,15 @@ TextureImporter:
         width: 70
         height: 101
       alignment: 9
-      pivot: {x: .357142866, y: .698019803}
+      pivot: {x: 0.35714287, y: 0.6980198}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 30.5}
+        - {x: -25, y: 24.5}
+        - {x: -25, y: -70.5}
+        - {x: 45, y: -70.5}
+        - {x: 45, y: 13.5}
+        - {x: 35, y: 30.5}
     - name: Patch-land_0001
       rect:
         serializedVersion: 2
@@ -734,8 +1286,18 @@ TextureImporter:
         width: 62
         height: 89
       alignment: 9
-      pivot: {x: .193548381, y: .792134821}
+      pivot: {x: 0.19354838, y: 0.7921348}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 18.5}
+        - {x: 0, y: 4.5}
+        - {x: -12, y: -24.5}
+        - {x: -12, y: -65.5}
+        - {x: -10, y: -70.5}
+        - {x: 42, y: -70.5}
+        - {x: 50, y: -35.5}
+        - {x: 50, y: 7.5}
+        - {x: 35, y: 18.5}
     - name: Patch-land_0002
       rect:
         serializedVersion: 2
@@ -744,8 +1306,18 @@ TextureImporter:
         width: 60
         height: 102
       alignment: 9
-      pivot: {x: .166666672, y: .691176474}
+      pivot: {x: 0.16666667, y: 0.6911765}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50, y: 25.5}
+        - {x: 35, y: 31.5}
+        - {x: -9, y: 31.5}
+        - {x: -10, y: 27.5}
+        - {x: -10, y: -70.5}
+        - {x: 31, y: -70.5}
+        - {x: 33, y: -68.5}
+        - {x: 49, y: -30.5}
+        - {x: 50, y: -25.5}
     - name: Patch-land_0003
       rect:
         serializedVersion: 2
@@ -754,8 +1326,15 @@ TextureImporter:
         width: 61
         height: 116
       alignment: 9
-      pivot: {x: .360655725, y: .607758641}
+      pivot: {x: 0.36065573, y: 0.60775864}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 45.5}
+        - {x: -22, y: -70.5}
+        - {x: 38, y: -70.5}
+        - {x: 39, y: -66.5}
+        - {x: 39, y: 28.5}
+        - {x: 4, y: 45.5}
     - name: Patch-land_0004
       rect:
         serializedVersion: 2
@@ -764,8 +1343,15 @@ TextureImporter:
         width: 70
         height: 101
       alignment: 9
-      pivot: {x: .357142866, y: .698019803}
+      pivot: {x: 0.35714287, y: 0.6980198}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 30.5}
+        - {x: -25, y: 24.5}
+        - {x: -25, y: -70.5}
+        - {x: 45, y: -70.5}
+        - {x: 45, y: 13.5}
+        - {x: 35, y: 30.5}
     - name: Patch-skid_0000
       rect:
         serializedVersion: 2
@@ -774,8 +1360,26 @@ TextureImporter:
         width: 76
         height: 117
       alignment: 9
-      pivot: {x: .631578922, y: .602564096}
+      pivot: {x: 0.6315789, y: 0.6025641}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -5.5}
+        - {x: 15, y: 5.5}
+        - {x: 19, y: 32.5}
+        - {x: -20, y: 46.5}
+        - {x: -48, y: 46.5}
+        - {x: -48, y: -12.5}
+        - {x: -41, y: -37.5}
+        - {x: -21, y: -39.5}
+        - {x: -14, y: -33.5}
+        - {x: -15, y: -14.5}
+        - {x: -14, y: -27.5}
+        - {x: -13, y: -43.5}
+        - {x: -1, y: -70.5}
+        - {x: 24, y: -70.5}
+        - {x: 28, y: -63.5}
+        - {x: 28, y: -33.5}
+        - {x: 27, y: -13.5}
     - name: Patch-skid_0001
       rect:
         serializedVersion: 2
@@ -784,8 +1388,26 @@ TextureImporter:
         width: 76
         height: 117
       alignment: 9
-      pivot: {x: .631578922, y: .602564096}
+      pivot: {x: 0.6315789, y: 0.6025641}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -5.5}
+        - {x: 15, y: 5.5}
+        - {x: 19, y: 32.5}
+        - {x: -20, y: 46.5}
+        - {x: -48, y: 46.5}
+        - {x: -48, y: -12.5}
+        - {x: -41, y: -37.5}
+        - {x: -21, y: -39.5}
+        - {x: -14, y: -33.5}
+        - {x: -15, y: -14.5}
+        - {x: -14, y: -27.5}
+        - {x: -13, y: -43.5}
+        - {x: -1, y: -70.5}
+        - {x: 24, y: -70.5}
+        - {x: 28, y: -63.5}
+        - {x: 28, y: -33.5}
+        - {x: 27, y: -13.5}
     - name: Patch-skid_0002
       rect:
         serializedVersion: 2
@@ -794,8 +1416,26 @@ TextureImporter:
         width: 76
         height: 117
       alignment: 9
-      pivot: {x: .631578922, y: .602564096}
+      pivot: {x: 0.6315789, y: 0.6025641}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -5.5}
+        - {x: 15, y: 5.5}
+        - {x: 19, y: 32.5}
+        - {x: -20, y: 46.5}
+        - {x: -48, y: 46.5}
+        - {x: -48, y: -12.5}
+        - {x: -41, y: -37.5}
+        - {x: -21, y: -39.5}
+        - {x: -14, y: -33.5}
+        - {x: -15, y: -14.5}
+        - {x: -14, y: -27.5}
+        - {x: -13, y: -43.5}
+        - {x: -1, y: -70.5}
+        - {x: 24, y: -70.5}
+        - {x: 28, y: -63.5}
+        - {x: 28, y: -33.5}
+        - {x: 27, y: -13.5}
     - name: Patch-skid_0003
       rect:
         serializedVersion: 2
@@ -804,8 +1444,26 @@ TextureImporter:
         width: 76
         height: 117
       alignment: 9
-      pivot: {x: .631578922, y: .602564096}
+      pivot: {x: 0.6315789, y: 0.6025641}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -5.5}
+        - {x: 15, y: 5.5}
+        - {x: 19, y: 32.5}
+        - {x: -20, y: 46.5}
+        - {x: -48, y: 46.5}
+        - {x: -48, y: -12.5}
+        - {x: -41, y: -37.5}
+        - {x: -21, y: -39.5}
+        - {x: -14, y: -33.5}
+        - {x: -15, y: -14.5}
+        - {x: -14, y: -27.5}
+        - {x: -13, y: -43.5}
+        - {x: -1, y: -70.5}
+        - {x: 24, y: -70.5}
+        - {x: 28, y: -63.5}
+        - {x: 28, y: -33.5}
+        - {x: 27, y: -13.5}
     - name: Patch-skid_0004
       rect:
         serializedVersion: 2
@@ -814,8 +1472,26 @@ TextureImporter:
         width: 76
         height: 117
       alignment: 9
-      pivot: {x: .631578922, y: .602564096}
+      pivot: {x: 0.6315789, y: 0.6025641}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -5.5}
+        - {x: 15, y: 5.5}
+        - {x: 19, y: 32.5}
+        - {x: -20, y: 46.5}
+        - {x: -48, y: 46.5}
+        - {x: -48, y: -12.5}
+        - {x: -41, y: -37.5}
+        - {x: -21, y: -39.5}
+        - {x: -14, y: -33.5}
+        - {x: -15, y: -14.5}
+        - {x: -14, y: -27.5}
+        - {x: -13, y: -43.5}
+        - {x: -1, y: -70.5}
+        - {x: 24, y: -70.5}
+        - {x: 28, y: -63.5}
+        - {x: 28, y: -33.5}
+        - {x: 27, y: -13.5}
     - name: Patch-skid_0005
       rect:
         serializedVersion: 2
@@ -824,8 +1500,26 @@ TextureImporter:
         width: 76
         height: 117
       alignment: 9
-      pivot: {x: .631578922, y: .602564096}
+      pivot: {x: 0.6315789, y: 0.6025641}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: -5.5}
+        - {x: 15, y: 5.5}
+        - {x: 19, y: 32.5}
+        - {x: -20, y: 46.5}
+        - {x: -48, y: 46.5}
+        - {x: -48, y: -12.5}
+        - {x: -41, y: -37.5}
+        - {x: -21, y: -39.5}
+        - {x: -14, y: -33.5}
+        - {x: -15, y: -14.5}
+        - {x: -14, y: -27.5}
+        - {x: -13, y: -43.5}
+        - {x: -1, y: -70.5}
+        - {x: 24, y: -70.5}
+        - {x: 28, y: -63.5}
+        - {x: 28, y: -33.5}
+        - {x: 27, y: -13.5}
     - name: Patch-walk_0000
       rect:
         serializedVersion: 2
@@ -834,8 +1528,17 @@ TextureImporter:
         width: 71
         height: 118
       alignment: 9
-      pivot: {x: .492957741, y: .572033882}
+      pivot: {x: 0.49295774, y: 0.5720339}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 50.5}
+        - {x: -35, y: 49.5}
+        - {x: -35, y: -59.5}
+        - {x: -25, y: -67.5}
+        - {x: 19, y: -67.5}
+        - {x: 36, y: -57.5}
+        - {x: 36, y: 24.5}
+        - {x: 16, y: 50.5}
     - name: Patch-walk_0001
       rect:
         serializedVersion: 2
@@ -844,8 +1547,16 @@ TextureImporter:
         width: 69
         height: 113
       alignment: 9
-      pivot: {x: .405797094, y: .491150439}
+      pivot: {x: 0.4057971, y: 0.49115044}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 38.5}
+        - {x: -1, y: 57.5}
+        - {x: -28, y: 57.5}
+        - {x: -28, y: -55.5}
+        - {x: 41, y: -55.5}
+        - {x: 41, y: -11.5}
+        - {x: 36, y: 32.5}
     - name: Patch-walk_0002
       rect:
         serializedVersion: 2
@@ -854,8 +1565,16 @@ TextureImporter:
         width: 69
         height: 113
       alignment: 9
-      pivot: {x: .405797094, y: .491150439}
+      pivot: {x: 0.4057971, y: 0.49115044}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 38.5}
+        - {x: -1, y: 57.5}
+        - {x: -28, y: 57.5}
+        - {x: -28, y: -55.5}
+        - {x: 41, y: -55.5}
+        - {x: 41, y: -11.5}
+        - {x: 36, y: 32.5}
     - name: Patch-walk_0003
       rect:
         serializedVersion: 2
@@ -864,8 +1583,16 @@ TextureImporter:
         width: 52
         height: 131
       alignment: 9
-      pivot: {x: .384615391, y: .54580152}
+      pivot: {x: 0.3846154, y: 0.5458015}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 59.5}
+        - {x: -20, y: -66.5}
+        - {x: -5, y: -71.5}
+        - {x: 28, y: -71.5}
+        - {x: 32, y: -40.5}
+        - {x: 32, y: 39.5}
+        - {x: 13, y: 59.5}
     - name: Patch-walk_0004
       rect:
         serializedVersion: 2
@@ -874,8 +1601,15 @@ TextureImporter:
         width: 61
         height: 122
       alignment: 9
-      pivot: {x: .459016383, y: .594262302}
+      pivot: {x: 0.45901638, y: 0.5942623}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 49.5}
+        - {x: -28, y: -13.5}
+        - {x: -18, y: -72.5}
+        - {x: 33, y: -72.5}
+        - {x: 33, y: 45.5}
+        - {x: 14, y: 49.5}
     - name: Patch-walk_0005
       rect:
         serializedVersion: 2
@@ -884,8 +1618,15 @@ TextureImporter:
         width: 61
         height: 122
       alignment: 9
-      pivot: {x: .459016383, y: .594262302}
+      pivot: {x: 0.45901638, y: 0.5942623}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 49.5}
+        - {x: -28, y: -13.5}
+        - {x: -18, y: -72.5}
+        - {x: 33, y: -72.5}
+        - {x: 33, y: 45.5}
+        - {x: 14, y: 49.5}
     - name: bg_clouds
       rect:
         serializedVersion: 2
@@ -894,8 +1635,119 @@ TextureImporter:
         width: 1539
         height: 332
       alignment: 9
-      pivot: {x: .5, y: .677710831}
+      pivot: {x: 0.5, y: 0.67771083}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 751.5, y: -104}
+        - {x: 679.5, y: -100}
+        - {x: 660.5, y: -118}
+        - {x: 654.5, y: -142}
+        - {x: 629.5, y: -121}
+        - {x: 619.5, y: -89}
+        - {x: 594.5, y: -78}
+        - {x: 589.5, y: -54}
+        - {x: 573.5, y: -42}
+        - {x: 539.5, y: -37}
+        - {x: 511.5, y: -42}
+        - {x: 510.5, y: -18}
+        - {x: 498.5, y: 0}
+        - {x: 468.5, y: 4}
+        - {x: 453.5, y: -5}
+        - {x: 438.5, y: -22}
+        - {x: 424.5, y: -53}
+        - {x: 399.5, y: -37}
+        - {x: 373.5, y: -42}
+        - {x: 357.5, y: -52}
+        - {x: 351.5, y: -81}
+        - {x: 338.5, y: -91}
+        - {x: 337.5, y: -59}
+        - {x: 331.5, y: -42}
+        - {x: 315.5, y: -30}
+        - {x: 243.5, y: -28}
+        - {x: 230.5, y: -37}
+        - {x: 222.5, y: -54}
+        - {x: 192.5, y: -75}
+        - {x: 179.5, y: -96}
+        - {x: 169.5, y: -118}
+        - {x: 138.5, y: -113}
+        - {x: 100.5, y: -118}
+        - {x: 102.5, y: -90}
+        - {x: 100.5, y: -56}
+        - {x: 94.5, y: -40}
+        - {x: 81.5, y: -25}
+        - {x: 38.5, y: -22}
+        - {x: 10.5, y: -13}
+        - {x: -0.5, y: 5}
+        - {x: -16.5, y: 44}
+        - {x: -35.5, y: 70}
+        - {x: -51.5, y: 88}
+        - {x: -68.5, y: 94}
+        - {x: -101.5, y: 94}
+        - {x: -126.5, y: 67}
+        - {x: -168.5, y: 64}
+        - {x: -208.5, y: 4}
+        - {x: -202.5, y: -13}
+        - {x: -12.5, y: -13}
+        - {x: -21.5, y: -18}
+        - {x: -28.5, y: -29}
+        - {x: -32.5, y: -78}
+        - {x: -69.5, y: -105}
+        - {x: -98.5, y: -95}
+        - {x: -113.5, y: -73}
+        - {x: -142.5, y: -54}
+        - {x: -162.5, y: -56}
+        - {x: -206.5, y: -88}
+        - {x: -229.5, y: -129}
+        - {x: -252.5, y: -112}
+        - {x: -262.5, y: -63}
+        - {x: -293.5, y: -42}
+        - {x: -324.5, y: -38}
+        - {x: -355.5, y: -54}
+        - {x: -430.5, y: -62}
+        - {x: -451.5, y: -97}
+        - {x: -468.5, y: -116}
+        - {x: -494.5, y: -98}
+        - {x: -515.5, y: -48}
+        - {x: -526.5, y: -30}
+        - {x: -553.5, y: -24}
+        - {x: -563.5, y: 8}
+        - {x: -580.5, y: 20}
+        - {x: -598.5, y: 18}
+        - {x: -629.5, y: 9}
+        - {x: -654.5, y: -14}
+        - {x: -671.5, y: -32}
+        - {x: -693.5, y: -59}
+        - {x: -686.5, y: -89}
+        - {x: -693.5, y: -110}
+        - {x: -708.5, y: -133}
+        - {x: -755.5, y: -131}
+        - {x: -768.5, y: -141}
+        - {x: -769.5, y: -144}
+        - {x: -769.5, y: -225}
+        - {x: 769.5, y: -225}
+        - {x: 769.5, y: -123}
+        - {x: 767.5, y: -117}
+      - - {x: 684.5, y: 61}
+        - {x: 670.5, y: 57}
+        - {x: 640.5, y: 25}
+        - {x: 624.5, y: 2}
+        - {x: 619.5, y: -19}
+        - {x: 619.5, y: -36}
+        - {x: 620.5, y: -37}
+        - {x: 769.5, y: -37}
+        - {x: 769.5, y: -2}
+        - {x: 720.5, y: 61}
+      - - {x: -380.5, y: 107}
+        - {x: -422.5, y: 107}
+        - {x: -435.5, y: 103}
+        - {x: -471.5, y: 40}
+        - {x: -471.5, y: 22}
+        - {x: -466.5, y: 18}
+        - {x: -453.5, y: 11}
+        - {x: -326.5, y: 11}
+        - {x: -322.5, y: 19}
+        - {x: -322.5, y: 31}
+        - {x: -357.5, y: 93}
     - name: bg_sky
       rect:
         serializedVersion: 2
@@ -904,8 +1756,13 @@ TextureImporter:
         width: 940
         height: 417
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -470, y: 208.5}
+        - {x: -470, y: -208.5}
+        - {x: 470, y: -208.5}
+        - {x: 470, y: 208.5}
     - name: bg_trees
       rect:
         serializedVersion: 2
@@ -914,8 +1771,63 @@ TextureImporter:
         width: 923
         height: 240
       alignment: 9
-      pivot: {x: .5, y: .9375}
+      pivot: {x: 0.5, y: 0.9375}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 403.5, y: -32}
+        - {x: 364.5, y: -68}
+        - {x: 349.5, y: -15}
+        - {x: 344.5, y: -6}
+        - {x: 335.5, y: -9}
+        - {x: 317.5, y: -77}
+        - {x: 283.5, y: 15}
+        - {x: 270.5, y: 15}
+        - {x: 269.5, y: 13}
+        - {x: 252.5, y: -71}
+        - {x: 207.5, y: -47}
+        - {x: 232.5, y: -5}
+        - {x: 225.5, y: 1}
+        - {x: 178.5, y: -16}
+        - {x: 146.5, y: -15}
+        - {x: 70.5, y: -68}
+        - {x: 6.5, y: -28}
+        - {x: -22.5, y: -105}
+        - {x: -45.5, y: -64}
+        - {x: -92.5, y: -37}
+        - {x: -130.5, y: -21}
+        - {x: -138.5, y: -22}
+        - {x: -134.5, y: -42}
+        - {x: -125.5, y: -74}
+        - {x: -127.5, y: -72}
+        - {x: -136.5, y: -64}
+        - {x: -182.5, y: -120}
+        - {x: -183.5, y: -134}
+        - {x: -183.5, y: -189}
+        - {x: -102.5, y: -200}
+        - {x: -27.5, y: -225}
+        - {x: 443.5, y: -225}
+        - {x: 461.5, y: -213}
+        - {x: 461.5, y: -147}
+        - {x: 412.5, y: -36}
+      - - {x: -214.5, y: 14}
+        - {x: -246.5, y: 14}
+        - {x: -295.5, y: -29}
+        - {x: -289.5, y: -55}
+        - {x: -354.5, y: 1}
+        - {x: -369.5, y: -20}
+        - {x: -407.5, y: -22}
+        - {x: -421.5, y: -57}
+        - {x: -422.5, y: -60}
+        - {x: -424.5, y: -32}
+        - {x: -430.5, y: -27}
+        - {x: -434.5, y: -26}
+        - {x: -461.5, y: -45}
+        - {x: -461.5, y: -201}
+        - {x: -349.5, y: -201}
+        - {x: -225.5, y: -195}
+        - {x: -198.5, y: -171}
+        - {x: -198.5, y: -116}
+        - {x: -215.5, y: -61}
     - name: blade
       rect:
         serializedVersion: 2
@@ -924,8 +1836,20 @@ TextureImporter:
         width: 263
         height: 263
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.5, y: -26.5}
+        - {x: 131.5, y: 26.5}
+        - {x: 67.5, y: 104.5}
+        - {x: 31.5, y: 131.5}
+        - {x: -99.5, y: 131.5}
+        - {x: -131.5, y: 29.5}
+        - {x: -131.5, y: -23.5}
+        - {x: -70.5, y: -21.5}
+        - {x: -21.5, y: -128.5}
+        - {x: -20.5, y: -131.5}
+        - {x: 38.5, y: -131.5}
     - name: crate
       rect:
         serializedVersion: 2
@@ -934,8 +1858,13 @@ TextureImporter:
         width: 70
         height: 75
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 37.5}
+        - {x: -35, y: -37.5}
+        - {x: 35, y: -37.5}
+        - {x: 35, y: 37.5}
     - name: fg_trees
       rect:
         serializedVersion: 2
@@ -944,8 +1873,49 @@ TextureImporter:
         width: 2314
         height: 323
       alignment: 9
-      pivot: {x: .5, y: .696594417}
+      pivot: {x: 0.5, y: 0.6965944}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1050, y: 95}
+        - {x: -1052, y: 98}
+        - {x: -1087, y: 98}
+        - {x: -1149, y: 9}
+        - {x: -1147, y: -47}
+        - {x: -1157, y: -107}
+        - {x: -1157, y: -225}
+        - {x: -933, y: -225}
+        - {x: -933, y: -208}
+        - {x: -940, y: -157}
+        - {x: -1041, y: -46}
+        - {x: -1027, y: -10}
+      - - {x: -586, y: -88}
+        - {x: -651, y: -11}
+        - {x: -669, y: -11}
+        - {x: -676, y: -17}
+        - {x: -684, y: -110}
+        - {x: -718, y: -203}
+        - {x: -718, y: -225}
+        - {x: -532, y: -225}
+        - {x: -532, y: -224}
+        - {x: -539, y: -183}
+        - {x: -553, y: -144}
+      - - {x: 1126, y: 8}
+        - {x: 1096, y: 89}
+        - {x: 1077, y: 89}
+        - {x: 1071, y: 87}
+        - {x: 1044, y: -40}
+        - {x: 1023, y: -63}
+        - {x: 1014, y: -99}
+        - {x: 983, y: -47}
+        - {x: 970, y: -41}
+        - {x: 935, y: -91}
+        - {x: 932, y: -108}
+        - {x: 918, y: -139}
+        - {x: 918, y: -210}
+        - {x: 925, y: -225}
+        - {x: 1157, y: -225}
+        - {x: 1157, y: -105}
+        - {x: 1146, y: -69}
     - name: jewel
       rect:
         serializedVersion: 2
@@ -954,8 +1924,9 @@ TextureImporter:
         width: 31
         height: 44
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: jewelMeter
       rect:
         serializedVersion: 2
@@ -964,8 +1935,17 @@ TextureImporter:
         width: 195
         height: 39
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -89.5, y: 19.5}
+        - {x: -97.5, y: 12.5}
+        - {x: -97.5, y: -14.5}
+        - {x: -90.5, y: -19.5}
+        - {x: 90.5, y: -19.5}
+        - {x: 97.5, y: -13.5}
+        - {x: 97.5, y: 12.5}
+        - {x: 93.5, y: 19.5}
     - name: leaf
       rect:
         serializedVersion: 2
@@ -974,8 +1954,9 @@ TextureImporter:
         width: 11
         height: 19
       alignment: 9
-      pivot: {x: .545454562, y: .5}
+      pivot: {x: 0.54545456, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     - name: mb
       rect:
         serializedVersion: 2
@@ -984,8 +1965,216 @@ TextureImporter:
         width: 3301
         height: 450
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: -225}
+        - {x: -19.5, y: -225}
+        - {x: -18.5, y: -98}
+        - {x: 35.5, y: -88}
+        - {x: 136.5, y: -83}
+        - {x: 136.5, y: -225}
+        - {x: 158.5, y: -225}
+        - {x: 163.5, y: -87}
+        - {x: 262.5, y: -113}
+        - {x: 272.5, y: -225}
+        - {x: 1650.5, y: -225}
+        - {x: 1650.5, y: 53}
+        - {x: 1211.5, y: 55}
+        - {x: 1247.5, y: 16}
+        - {x: 1266.5, y: -27}
+        - {x: 1248.5, y: -104}
+        - {x: 1171.5, y: -109}
+        - {x: 1126.5, y: -112}
+        - {x: 1120.5, y: -92}
+        - {x: 1108.5, y: -88}
+        - {x: 1059.5, y: -42}
+        - {x: 1056.5, y: 60}
+        - {x: 1054.5, y: 80}
+        - {x: 1039.5, y: 101}
+        - {x: 1011.5, y: 127}
+        - {x: 982.5, y: 132}
+        - {x: 955.5, y: 113}
+        - {x: 927.5, y: 69}
+        - {x: 937.5, y: 8}
+        - {x: 911.5, y: -90}
+        - {x: 900.5, y: -100}
+        - {x: 872.5, y: -113}
+        - {x: 861.5, y: -86}
+        - {x: 853.5, y: -72}
+        - {x: 810.5, y: -79}
+        - {x: 797.5, y: -60}
+        - {x: 718.5, y: -63}
+        - {x: 703.5, y: -33}
+        - {x: 668.5, y: -53}
+        - {x: 659.5, y: -56}
+        - {x: 657.5, y: -60}
+        - {x: 662.5, y: -47}
+        - {x: 640.5, y: -31}
+        - {x: 633.5, y: -36}
+        - {x: 631.5, y: -43}
+        - {x: 637.5, y: -49}
+        - {x: 637.5, y: -52}
+        - {x: 637.5, y: -50}
+        - {x: 630.5, y: -44}
+        - {x: 627.5, y: -44}
+        - {x: 625.5, y: -46}
+        - {x: 625.5, y: -50}
+        - {x: 523.5, y: -66}
+        - {x: 528.5, y: -49}
+        - {x: 522.5, y: -41}
+        - {x: 513.5, y: -44}
+        - {x: 499.5, y: -42}
+        - {x: 487.5, y: -43}
+        - {x: 434.5, y: -67}
+        - {x: 437.5, y: -48}
+        - {x: 432.5, y: -42}
+        - {x: 425.5, y: -39}
+        - {x: 407.5, y: -55}
+        - {x: 409.5, y: -61}
+        - {x: 412.5, y: -65}
+        - {x: 413.5, y: -69}
+        - {x: 407.5, y: -58}
+        - {x: 408.5, y: -36}
+        - {x: 382.5, y: -56}
+        - {x: 323.5, y: -63}
+        - {x: 292.5, y: -41}
+        - {x: 275.5, y: -58}
+        - {x: 268.5, y: -18}
+        - {x: 249.5, y: -26}
+        - {x: 181.5, y: -31}
+        - {x: 169.5, y: -2}
+        - {x: 156.5, y: -2}
+        - {x: 152.5, y: -8}
+        - {x: 73.5, y: -27}
+        - {x: 67.5, y: 3}
+        - {x: 48.5, y: -4}
+        - {x: 19.5, y: -32}
+        - {x: -28.5, y: -39}
+        - {x: -29.5, y: -25}
+        - {x: -46.5, y: -20}
+        - {x: -52.5, y: -27}
+        - {x: -57.5, y: -53}
+        - {x: -129.5, y: -88}
+        - {x: -131.5, y: -73}
+        - {x: -135.5, y: -67}
+        - {x: -151.5, y: -72}
+        - {x: -150.5, y: -88}
+        - {x: -157.5, y: -114}
+        - {x: -237.5, y: -112}
+        - {x: -251.5, y: -112}
+        - {x: -287.5, y: -91}
+        - {x: -291.5, y: -89}
+        - {x: -298.5, y: -88}
+        - {x: -319.5, y: -104}
+        - {x: -319.5, y: -111}
+        - {x: -332.5, y: -106}
+        - {x: -331.5, y: -105}
+        - {x: -334.5, y: -90}
+        - {x: -352.5, y: -83}
+        - {x: -360.5, y: -87}
+        - {x: -359.5, y: -91}
+        - {x: -354.5, y: -98}
+        - {x: -354.5, y: -101}
+        - {x: -354.5, y: -99}
+        - {x: -361.5, y: -93}
+        - {x: -364.5, y: -93}
+        - {x: -366.5, y: -95}
+        - {x: -366.5, y: -99}
+        - {x: -380.5, y: -112}
+        - {x: -456.5, y: -110}
+        - {x: -430.5, y: -19}
+        - {x: -446.5, y: -17}
+        - {x: -544.5, y: -2}
+        - {x: -554.5, y: 0}
+        - {x: -642.5, y: -16}
+        - {x: -649.5, y: -24}
+        - {x: -653.5, y: -34}
+        - {x: -641.5, y: -51}
+        - {x: -632.5, y: -110}
+        - {x: -686.5, y: -111}
+        - {x: -699.5, y: -131}
+        - {x: -684.5, y: -153}
+        - {x: -776.5, y: -150}
+        - {x: -779.5, y: -135}
+        - {x: -781.5, y: -130}
+        - {x: -785.5, y: -131}
+        - {x: -787.5, y: -132}
+        - {x: -789.5, y: -119}
+        - {x: -768.5, y: -122}
+        - {x: -764.5, y: -95}
+        - {x: -771.5, y: -83}
+        - {x: -789.5, y: -74}
+        - {x: -837.5, y: -79}
+        - {x: -835.5, y: -114}
+        - {x: -829.5, y: -117}
+        - {x: -833.5, y: -153}
+        - {x: -863.5, y: -155}
+        - {x: -882.5, y: -115}
+        - {x: -842.5, y: -22}
+        - {x: -804.5, y: 80}
+        - {x: -776.5, y: 80}
+        - {x: -749.5, y: 79}
+        - {x: -714.5, y: 82}
+        - {x: -666.5, y: 125}
+        - {x: -657.5, y: 170}
+        - {x: -710.5, y: 218}
+        - {x: -734.5, y: 225}
+        - {x: -1009.5, y: 225}
+        - {x: -1021.5, y: 210}
+        - {x: -1023.5, y: 204}
+        - {x: -1060.5, y: 171}
+        - {x: -1067.5, y: 131}
+        - {x: -1038.5, y: 109}
+        - {x: -960.5, y: 74}
+        - {x: -896.5, y: 45}
+        - {x: -896.5, y: -32}
+        - {x: -940.5, y: -73}
+        - {x: -980.5, y: -140}
+        - {x: -1002.5, y: -153}
+        - {x: -1049.5, y: -147}
+        - {x: -1052.5, y: -147}
+        - {x: -1056.5, y: -151}
+        - {x: -1057.5, y: -157}
+        - {x: -1056.5, y: -149}
+        - {x: -1052.5, y: -145}
+        - {x: -1050.5, y: -129}
+        - {x: -1064.5, y: -115}
+        - {x: -1088.5, y: -129}
+        - {x: -1131.5, y: -111}
+        - {x: -1124.5, y: -130}
+        - {x: -1118.5, y: -136}
+        - {x: -1118.5, y: -139}
+        - {x: -1118.5, y: -137}
+        - {x: -1124.5, y: -131}
+        - {x: -1132.5, y: -132}
+        - {x: -1125.5, y: -152}
+        - {x: -1228.5, y: -153}
+        - {x: -1232.5, y: -127}
+        - {x: -1269.5, y: -130}
+        - {x: -1269.5, y: -152}
+        - {x: -1326.5, y: -154}
+        - {x: -1318.5, y: -138}
+        - {x: -1319.5, y: -132}
+        - {x: -1330.5, y: -126}
+        - {x: -1348.5, y: -142}
+        - {x: -1346.5, y: -148}
+        - {x: -1343.5, y: -152}
+        - {x: -1346.5, y: -150}
+        - {x: -1348.5, y: -145}
+        - {x: -1354.5, y: -137}
+        - {x: -1365.5, y: -137}
+        - {x: -1364.5, y: -152}
+        - {x: -1440.5, y: -150}
+        - {x: -1448.5, y: -124}
+        - {x: -1473.5, y: -143}
+        - {x: -1576.5, y: -149}
+        - {x: -1650.5, y: -155}
+        - {x: -1650.5, y: -225}
+        - {x: -119.5, y: -225}
+        - {x: -118.5, y: -221}
+        - {x: -110.5, y: -147}
+        - {x: -40.5, y: -105}
     - name: mf
       rect:
         serializedVersion: 2
@@ -994,8 +2183,272 @@ TextureImporter:
         width: 3087
         height: 450
       alignment: 9
-      pivot: {x: .465338528, y: .5}
+      pivot: {x: 0.46533853, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 232.5, y: -93}
+        - {x: 271.5, y: -180}
+        - {x: 286.5, y: -176}
+        - {x: 286.5, y: -12}
+        - {x: 285.5, y: -3}
+        - {x: 263.5, y: 3}
+        - {x: 51.5, y: 3}
+        - {x: -31.5, y: -14}
+        - {x: -130.5, y: -55}
+        - {x: -130.5, y: -175}
+        - {x: -127.5, y: -176}
+        - {x: -116.5, y: -177}
+        - {x: -22.5, y: -103}
+        - {x: -22.5, y: -225}
+        - {x: 1.5, y: -225}
+        - {x: 154.5, y: -79}
+        - {x: 154.5, y: -225}
+        - {x: 178.5, y: -225}
+      - - {x: 1254.5, y: -200}
+        - {x: 1227.5, y: -200}
+        - {x: 1227.5, y: -209}
+        - {x: 1238.5, y: -225}
+        - {x: 1300.5, y: -225}
+        - {x: 1300.5, y: -220}
+        - {x: 1296.5, y: -207}
+      - - {x: 1230.5, y: 225}
+        - {x: 1223.5, y: 208}
+        - {x: 1213.5, y: 133}
+        - {x: 1208.5, y: 84}
+        - {x: 1208.5, y: 40}
+        - {x: 1219.5, y: 23}
+        - {x: 1429.5, y: -165}
+        - {x: 1416.5, y: -175}
+        - {x: 1428.5, y: -203}
+        - {x: 1474.5, y: -225}
+        - {x: 1650.5, y: -225}
+        - {x: 1650.5, y: 225}
+      - - {x: 1404.5, y: -220}
+        - {x: 1407.5, y: -219}
+        - {x: 1407.5, y: -216}
+        - {x: 1404.5, y: -215}
+        - {x: 1402.5, y: -217}
+      - - {x: -1423.5, y: -128}
+        - {x: -1436.5, y: -136}
+        - {x: -1436.5, y: -146}
+        - {x: -1435.5, y: -147}
+        - {x: -1430.5, y: -147}
+        - {x: -1428.5, y: -146}
+        - {x: -1432.5, y: -152}
+        - {x: -1433.5, y: -157}
+        - {x: -1427.5, y: -168}
+        - {x: -1425.5, y: -170}
+        - {x: -1417.5, y: -170}
+        - {x: -1411.5, y: -153}
+        - {x: -1411.5, y: -129}
+        - {x: -1414.5, y: -128}
+      - - {x: -991.5, y: -128}
+        - {x: -1007.5, y: -136}
+        - {x: -1007.5, y: -144}
+        - {x: -1004.5, y: -147}
+        - {x: -999.5, y: -147}
+        - {x: -997.5, y: -146}
+        - {x: -1001.5, y: -152}
+        - {x: -1002.5, y: -157}
+        - {x: -996.5, y: -168}
+        - {x: -994.5, y: -170}
+        - {x: -986.5, y: -170}
+        - {x: -980.5, y: -155}
+        - {x: -980.5, y: -130}
+        - {x: -982.5, y: -128}
+      - - {x: -1191.5, y: -134}
+        - {x: -1191.5, y: -169}
+        - {x: -1162.5, y: -169}
+        - {x: -1155.5, y: -159}
+        - {x: -1155.5, y: -135}
+        - {x: -1156.5, y: -134}
+      - - {x: -760.5, y: -142}
+        - {x: -760.5, y: -144}
+        - {x: -756.5, y: -147}
+        - {x: -752.5, y: -147}
+        - {x: -759.5, y: -149}
+        - {x: -760.5, y: -152}
+        - {x: -760.5, y: -156}
+        - {x: -750.5, y: -167}
+        - {x: -740.5, y: -169}
+        - {x: -736.5, y: -169}
+        - {x: -724.5, y: -164}
+        - {x: -724.5, y: -134}
+        - {x: -754.5, y: -134}
+      - - {x: -1276.5, y: -122}
+        - {x: -1294.5, y: -122}
+        - {x: -1311.5, y: -131}
+        - {x: -1311.5, y: -150}
+        - {x: -1306.5, y: -151}
+        - {x: -1296.5, y: -168}
+        - {x: -1288.5, y: -168}
+        - {x: -1283.5, y: -166}
+        - {x: -1273.5, y: -141}
+        - {x: -1273.5, y: -130}
+      - - {x: -861.5, y: -122}
+        - {x: -880.5, y: -137}
+        - {x: -880.5, y: -151}
+        - {x: -868.5, y: -168}
+        - {x: -857.5, y: -168}
+        - {x: -853.5, y: -166}
+        - {x: -842.5, y: -149}
+        - {x: -842.5, y: -127}
+        - {x: -844.5, y: -122}
+      - - {x: -1278.5, y: -146}
+        - {x: -1284.5, y: -148}
+        - {x: -1284.5, y: -166}
+        - {x: -1282.5, y: -167}
+        - {x: -1276.5, y: -167}
+        - {x: -1271.5, y: -156}
+        - {x: -1271.5, y: -146}
+      - - {x: -852.5, y: -146}
+        - {x: -853.5, y: -149}
+        - {x: -853.5, y: -167}
+        - {x: -847.5, y: -167}
+        - {x: -844.5, y: -166}
+        - {x: -840.5, y: -153}
+        - {x: -840.5, y: -146}
+      - - {x: -238.5, y: -101}
+        - {x: -238.5, y: -107}
+        - {x: -235.5, y: -110}
+        - {x: -230.5, y: -110}
+        - {x: -228.5, y: -109}
+        - {x: -232.5, y: -115}
+        - {x: -233.5, y: -120}
+        - {x: -227.5, y: -131}
+        - {x: -225.5, y: -133}
+        - {x: -218.5, y: -133}
+        - {x: -211.5, y: -110}
+        - {x: -211.5, y: -91}
+        - {x: -226.5, y: -91}
+        - {x: -236.5, y: -93}
+      - - {x: -417.5, y: -97}
+        - {x: -422.5, y: -105}
+        - {x: -422.5, y: -107}
+        - {x: -418.5, y: -110}
+        - {x: -414.5, y: -110}
+        - {x: -421.5, y: -112}
+        - {x: -422.5, y: -115}
+        - {x: -422.5, y: -119}
+        - {x: -412.5, y: -130}
+        - {x: -405.5, y: -132}
+        - {x: -398.5, y: -132}
+        - {x: -386.5, y: -108}
+        - {x: -386.5, y: -103}
+        - {x: -388.5, y: -97}
+      - - {x: -523.5, y: -85}
+        - {x: -542.5, y: -100}
+        - {x: -542.5, y: -114}
+        - {x: -530.5, y: -131}
+        - {x: -519.5, y: -131}
+        - {x: -515.5, y: -129}
+        - {x: -504.5, y: -112}
+        - {x: -504.5, y: -90}
+        - {x: -506.5, y: -85}
+      - - {x: -514.5, y: -109}
+        - {x: -515.5, y: -112}
+        - {x: -515.5, y: -130}
+        - {x: -509.5, y: -130}
+        - {x: -506.5, y: -129}
+        - {x: -502.5, y: -116}
+        - {x: -502.5, y: -109}
+      - - {x: 891.5, y: -82}
+        - {x: 888.5, y: -83}
+        - {x: 874.5, y: -99}
+        - {x: 874.5, y: -112}
+        - {x: 890.5, y: -128}
+        - {x: 901.5, y: -128}
+        - {x: 912.5, y: -104}
+        - {x: 912.5, y: -86}
+        - {x: 907.5, y: -82}
+      - - {x: -669.5, y: -107}
+        - {x: -666.5, y: -110}
+        - {x: -661.5, y: -110}
+        - {x: -659.5, y: -109}
+        - {x: -663.5, y: -115}
+        - {x: -664.5, y: -120}
+        - {x: -662.5, y: -127}
+        - {x: -649.5, y: -127}
+        - {x: -642.5, y: -118}
+        - {x: -642.5, y: -93}
+        - {x: -644.5, y: -91}
+        - {x: -652.5, y: -91}
+        - {x: -669.5, y: -99}
+      - - {x: 914.5, y: -108}
+        - {x: 912.5, y: -106}
+        - {x: 906.5, y: -106}
+        - {x: 901.5, y: -112}
+        - {x: 901.5, y: -124}
+        - {x: 904.5, y: -127}
+        - {x: 908.5, y: -127}
+        - {x: 910.5, y: -123}
+        - {x: 911.5, y: -116}
+        - {x: 914.5, y: -110}
+      - - {x: 333.5, y: -40}
+        - {x: 317.5, y: -48}
+        - {x: 317.5, y: -56}
+        - {x: 320.5, y: -59}
+        - {x: 325.5, y: -59}
+        - {x: 327.5, y: -58}
+        - {x: 323.5, y: -64}
+        - {x: 322.5, y: -69}
+        - {x: 328.5, y: -80}
+        - {x: 330.5, y: -82}
+        - {x: 337.5, y: -82}
+        - {x: 344.5, y: -59}
+        - {x: 344.5, y: -45}
+        - {x: 342.5, y: -40}
+      - - {x: 769.5, y: -40}
+        - {x: 764.5, y: -40}
+        - {x: 748.5, y: -48}
+        - {x: 748.5, y: -56}
+        - {x: 751.5, y: -59}
+        - {x: 756.5, y: -59}
+        - {x: 758.5, y: -58}
+        - {x: 754.5, y: -64}
+        - {x: 752.5, y: -69}
+        - {x: 760.5, y: -82}
+        - {x: 768.5, y: -82}
+        - {x: 775.5, y: -61}
+        - {x: 775.5, y: -43}
+        - {x: 772.5, y: -41}
+      - - {x: 568.5, y: -46}
+        - {x: 564.5, y: -50}
+        - {x: 565.5, y: -55}
+        - {x: 568.5, y: -59}
+        - {x: 572.5, y: -59}
+        - {x: 565.5, y: -61}
+        - {x: 564.5, y: -64}
+        - {x: 564.5, y: -68}
+        - {x: 574.5, y: -79}
+        - {x: 584.5, y: -81}
+        - {x: 591.5, y: -81}
+        - {x: 600.5, y: -62}
+        - {x: 600.5, y: -46}
+      - - {x: 460.5, y: -34}
+        - {x: 444.5, y: -43}
+        - {x: 444.5, y: -70}
+        - {x: 461.5, y: -80}
+        - {x: 472.5, y: -80}
+        - {x: 482.5, y: -53}
+        - {x: 482.5, y: -37}
+        - {x: 480.5, y: -34}
+      - - {x: 476.5, y: -58}
+        - {x: 471.5, y: -64}
+        - {x: 471.5, y: -77}
+        - {x: 474.5, y: -79}
+        - {x: 480.5, y: -79}
+        - {x: 484.5, y: -70}
+        - {x: 484.5, y: -58}
+      - - {x: 1228.5, y: -25}
+        - {x: 1227.5, y: -27}
+        - {x: 1227.5, y: -33}
+        - {x: 1236.5, y: -43}
+        - {x: 1242.5, y: -43}
+        - {x: 1247.5, y: -41}
+        - {x: 1247.5, y: -33}
+        - {x: 1236.5, y: -25}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
