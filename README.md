@@ -11,8 +11,8 @@ Collect pumpkins, kill weird ennemies and rush to the end of the level !
 Arrows to move / jump / crouch. You also can jump with space.
 In game, you can go back to the home screen by pressing escape
 
-# Sources
-The project is available on github : https://github.com/Jerek0/halloween-unity
+# Demo
+Open in safari : http://91.121.120.180/pumpkin/
 
 Enjoy' !
 
